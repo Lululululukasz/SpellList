@@ -1,70 +1,73 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Dungeon & Dragons, A new App',
-      theme: ThemeData(
-        primarySwatch: Colors.brown,
-      ),
-      home: const MyHomePage(title: 'D&D Home Page'),
-    );
-  }
-}
+  Widget build (BuildContext context)  {
+    const title = 'Basic List';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _characterCounter = 0;
-
-  void _addCharacter() {
-    setState(() {
-      _characterCounter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-
-    return Scaffold(
-      appBar: AppBar(
-
-        title: Text(widget.title),
-      ),
-      body: Center(
-
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have: ''$_characterCounter' ' Characters',
-              style: Theme.of(context).textTheme.headline5, // changes the style of the counter
+    return MaterialApp (
+      title: title,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Spells'),
+          backgroundColor: Colors.blue,
+          //centerTitle: true, to center title
+        ),
+        body: ListView(
+          children: const <Widget>[
+            ListTile(
+              title: Text('a'),
+              textColor: Colors.red,
+            ),
+            ListTile(
+              title: Text('b'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('c'),
+              textColor: Colors.brown,
+            ),
+            ListTile(
+              title: Text('d'),
+              textColor: Colors.green,
+            ),
+            ListTile(
+              title: Text('e'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('f'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('g'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('h'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('i'),
+              textColor: Colors.blue,
+            ),
+            ListTile(
+              title: Text('j'),
+              textColor: Colors.blue,
+            ),ListTile(
+              title: Text('k'),
+              textColor: Colors.pink,
+            ),ListTile(
+              title: Text('l'),
+              textColor: Colors.blue,
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _addCharacter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
