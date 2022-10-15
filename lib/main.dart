@@ -6,65 +6,170 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build (BuildContext context)  {
+  Widget build(BuildContext context) {
     const title = 'Basic List';
 
-    return MaterialApp (
+    return MaterialApp(
       title: title,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Spells'),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.red,
           //centerTitle: true, to center title
         ),
         body: ListView(
           children: const <Widget>[
-            ListTile(
-              title: Text('a'),
-              textColor: Colors.red,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('b'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('c'),
-              textColor: Colors.brown,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('d'),
-              textColor: Colors.green,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('e'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('f'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('g'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('h'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('i'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
-            ListTile(
-              title: Text('j'),
-              textColor: Colors.blue,
-            ),ListTile(
-              title: Text('k'),
-              textColor: Colors.pink,
-            ),ListTile(
-              title: Text('l'),
-              textColor: Colors.blue,
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
             ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.image),
+                title: Text('Spell'),
+              ),
+            ),
+              //TO make it scrollable just add more Titles and it will be auto scroll
           ],
         ),
       ),
