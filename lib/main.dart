@@ -37,6 +37,7 @@ class MainMenu extends StatelessWidget {
               children: [
                 Container(
                   height: 50,
+                  width: 50,
                   color: Colors.blue,
                   child:
                   ElevatedButton(
