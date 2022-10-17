@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Characters extends StatelessWidget {
-  const Characters({super.key});
+class Sheet extends StatelessWidget {
+  const Sheet({super.key});
 
   @override
   Widget build(BuildContext context) {

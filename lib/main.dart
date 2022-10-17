@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'spells.dart';
-
+import 'sheet.dart';
 
 void main() {
   runApp(
@@ -8,17 +8,22 @@ void main() {
       title: 'DND',
       // Start the app with the "/" named route. In this case, the app starts
       // on the FirstScreen widget.
+      theme: ThemeData(
+      brightness: Brightness.dark,
+      ),
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const MainMenu(),
         // When navigaconstting to the "/second" route, build the SecondScreen widget.
-        //'/character': (context) =>  Characters(),
+        '/sheet': (context) =>  const Sheet(),
         '/spells': (context) => const SpellList(),
       },
     ),
   );
 }
+
+
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
@@ -28,7 +33,6 @@ class MainMenu extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Main Menu'),
-        backgroundColor: Colors.red,
       ),
       drawer: Drawer(
 
@@ -44,7 +48,7 @@ class MainMenu extends StatelessWidget {
                     // Within the `FirstScreen` widget
                     onPressed: () {
                       // Navigate to the second screen using a named route.
-                      Navigator.pushNamed(context, '/character');
+                      Navigator.pushNamed(context, '/sheet');
                     },
                     child: const Text('Characters'),
                   ),
@@ -72,7 +76,7 @@ class MainMenu extends StatelessWidget {
                 // Within the `FirstScreen` widget
                 onPressed: () {
                   // Navigate to the second screen using a named route.
-                  Navigator.pushNamed(context, '/character');
+                  Navigator.pushNamed(context, '/sheet');
                 },
                 child: const Text('Characters'),
               ),
