@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'spells.dart';
+
 
 void main() {
   runApp(
@@ -10,8 +12,8 @@ void main() {
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const MainMenu(),
-        // When navigating to the "/second" route, build the SecondScreen widget.
-        '/character': (context) => const Characters.Characters(),
+        // When navigaconstting to the "/second" route, build the SecondScreen widget.
+        //'/character': (context) =>  Characters(),
         '/spells': (context) => const SpellList(),
       },
     ),
@@ -29,7 +31,6 @@ class MainMenu extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
       drawer: Drawer(
-
 
           child:  ListView(
               padding: EdgeInsets.all(10),
@@ -87,197 +88,3 @@ class MainMenu extends StatelessWidget {
   }
 }
 
-class Characters extends StatelessWidget {
-  const Characters.Characters({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Characters'),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          // Within the SecondScreen widget
-          onPressed: () {
-            // Navigate back to the first screen by popping the current route
-            // off the stack.
-            Navigator.pop(context);
-          },
-          child: const Text('Go back!'),
-        ),
-      ),
-    );
-  }
-}
-
-class SpellList extends StatelessWidget {
-  const SpellList({super.key});
-
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text ('Spells'),
-      ),
-      body: Center(
-        child:
-        ListView(
-          children: const <Widget>[
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spells'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.image),
-                title: Text('Spell'),
-              ),
-            ),
-            //TO make it scrollable just add more Titles and it will be auto scroll
-          ],
-        ),
-      ),
-    );
-  }
-}
