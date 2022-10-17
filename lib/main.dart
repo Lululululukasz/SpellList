@@ -27,15 +27,40 @@ class MainMenu extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Main Menu'),
         backgroundColor: Colors.red,
-        leading: GestureDetector(
+      ),
+      drawer: Drawer(
 
-          onTap: (){
-          Navigator.pushNamed(context, '/spells');
-        },
-          child: const Icon(
-            Icons.menu,
-          ),
-        ),
+
+          child:  ListView(
+              padding: EdgeInsets.all(10),
+              children: [
+                Container(
+                  height: 50,
+                  color: Colors.blue,
+                  child:
+                  ElevatedButton(
+                    // Within the `FirstScreen` widget
+                    onPressed: () {
+                      // Navigate to the second screen using a named route.
+                      Navigator.pushNamed(context, '/character');
+                    },
+                    child: const Text('Characters'),
+                  ),
+
+                ),
+                Container(
+                  child:
+                  ElevatedButton(
+                    onPressed:(){
+                      Navigator.pushNamed(context, '/spells');
+                    },
+                    child: const Text('Spells'),
+                  ),
+                )
+              ],
+            )
+
+
       ),
 
       body: Center(
