@@ -1,28 +1,108 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(
+    MaterialApp(
+      title: 'DND',
+      // Start the app with the "/" named route. In this case, the app starts
+      // on the FirstScreen widget.
+      initialRoute: '/',
+      routes: {
+        // When navigating to the "/" route, build the FirstScreen widget.
+        '/': (context) => const MainMenu(),
+        // When navigating to the "/second" route, build the SecondScreen widget.
+        '/character': (context) => const Characters.Characters(),
+        '/spells': (context) => const SpellList(),
+      },
+    ),
+  );
+}
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainMenu extends StatelessWidget {
+  const MainMenu({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const title = 'Basic List';
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Main Menu'),
+        backgroundColor: Colors.red,
+        leading: GestureDetector(
 
-    return MaterialApp(
-      title: title,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Spells'),
-          backgroundColor: Colors.red,
-          //centerTitle: true, to center title
+          onTap: (){
+          Navigator.pushNamed(context, '/spells');
+        },
+          child: const Icon(
+            Icons.menu,
+          ),
         ),
-        body: ListView(
+      ),
+
+      body: Center(
+          child: Column(
+            children: [
+              ElevatedButton(
+                // Within the `FirstScreen` widget
+                onPressed: () {
+                  // Navigate to the second screen using a named route.
+                  Navigator.pushNamed(context, '/character');
+                },
+                child: const Text('Characters'),
+              ),
+              ElevatedButton(
+                onPressed:(){
+                  Navigator.pushNamed(context, '/spells');
+                },
+                child: const Text('Spells'),
+              ),
+            ],
+          )
+      ),
+    );
+  }
+}
+
+class Characters extends StatelessWidget {
+  const Characters.Characters({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Characters'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          // Within the SecondScreen widget
+          onPressed: () {
+            // Navigate back to the first screen by popping the current route
+            // off the stack.
+            Navigator.pop(context);
+          },
+          child: const Text('Go back!'),
+        ),
+      ),
+    );
+  }
+}
+
+class SpellList extends StatelessWidget {
+  const SpellList({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text ('Spells'),
+      ),
+      body: Center(
+        child:
+        ListView(
           children: const <Widget>[
             Card(
               child: ListTile(
                 leading: Icon(Icons.image),
-                title: Text('Spell'),
+                title: Text('Spells'),
               ),
             ),
             Card(
@@ -169,7 +249,7 @@ class MyApp extends StatelessWidget {
                 title: Text('Spell'),
               ),
             ),
-              //TO make it scrollable just add more Titles and it will be auto scroll
+            //TO make it scrollable just add more Titles and it will be auto scroll
           ],
         ),
       ),
