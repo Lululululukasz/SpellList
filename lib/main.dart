@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'spells.dart';
-
+import 'characters.dart';
 
 void main() {
   runApp(
@@ -13,7 +13,7 @@ void main() {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const MainMenu(),
         // When navigaconstting to the "/second" route, build the SecondScreen widget.
-        //'/character': (context) =>  Characters(),
+        '/character': (context) => const Sheet(),
         '/spells': (context) => const SpellList(),
       },
     ),
@@ -33,7 +33,7 @@ class MainMenu extends StatelessWidget {
       drawer: Drawer(
 
           child:  ListView(
-              padding: EdgeInsets.all(10),
+              padding: const EdgeInsets.all(10),
               children: [
                 Container(
                   height: 50,

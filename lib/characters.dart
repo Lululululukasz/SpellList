@@ -1,26 +1,34 @@
 import 'package:flutter/material.dart';
 
-class Characters extends StatelessWidget {
-  const Characters({super.key});
+class Sheet extends StatelessWidget {
+  const Sheet({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Characters'),
+        title: const Text ('Characters'),
       ),
       body: Center(
-        child: ElevatedButton(
-          // Within the SecondScreen widget
-          onPressed: () {
-            // Navigate back to the first screen by popping the current route
-            // off the stack.
-            Navigator.pop(context);
-          },
-          child: const Text('Go back!'),
+        child:
+        ListView(
+          children:  <Widget>[
+            Card(
+              child: charTile('char1'),
+            ),
+            Card(
+              child: charTile('alsochar1'),
+            ),
+            //TO make it scrollable just add more Titles and it will be auto scroll
+          ],
         ),
       ),
     );
   }
 }
+ListTile charTile(String charName){
+  return ListTile(
+    title: Text(charName),
+  );
 
+}
