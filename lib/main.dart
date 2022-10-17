@@ -40,19 +40,29 @@ class MainMenu extends StatelessWidget {
 
               children: [
 
-                ElevatedButton(
-                  // Within the `FirstScreen` widget
-                  onPressed: () {
-                    // Navigate to the second screen using a named route.
-                    Navigator.pushNamed(context, '/sheet');
-                  },
-                  child: const Text('Characters'),
+                Container(
+                  height: kToolbarHeight,
                 ),
-                ElevatedButton(
-                  onPressed:(){
-                    Navigator.pushNamed(context, '/spells');
-                  },
-                  child: const Text('Spells'),
+
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0,right: 8.0),
+                  child: ElevatedButton(
+                    // Within the `FirstScreen` widget
+                    onPressed: () {
+                      // Navigate to the second screen using a named route.
+                      Navigator.pushNamed(context, '/sheet');
+                    },
+                    child: const Text('Characters'),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0,right: 8.0),
+                  child: ElevatedButton(
+                    onPressed:(){
+                      Navigator.pushNamed(context, '/spells');
+                    },
+                    child: const Text('Spells'),
+                  ),
                 )
               ],
             )
