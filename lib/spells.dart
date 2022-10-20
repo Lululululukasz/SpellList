@@ -14,57 +14,58 @@ class SpellList extends StatelessWidget {
         ListView(
           children:  <Widget>[
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
-            ),Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
             ),
             Card(
-              child: spellTile('schpell'),
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
             ),
 
             //TO make it scrollable just add more Titles and it will be auto scroll
