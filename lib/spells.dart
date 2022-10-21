@@ -67,6 +67,39 @@ class SpellList extends StatelessWidget {
             Card(
               child: spellTile('spell'),
             ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
+            Card(
+              child: spellTile('spell'),
+            ),
 
             //TO make it scrollable just add more Titles and it will be auto scroll
           ],
