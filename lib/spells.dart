@@ -11,7 +11,7 @@ class SpellList extends StatelessWidget {
       ),
       body: Center(
         child:
-        ListView(
+        ListView( //ListviewBuilder
           children:  <Widget>[
             Card(
               child: spellTile('spell'),
