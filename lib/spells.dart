@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SpellList extends StatelessWidget {
   const SpellList({super.key});
-
+//TODO update
   @override
   Widget build(BuildContext context){
     return Scaffold(
