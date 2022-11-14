@@ -23,13 +23,11 @@ class _SpellsState extends State<Spells> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Api Calls in Flutter'),
-            centerTitle: true,
-          ),
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text ('Spells'),
+      ),
           body: Center(
             child: FutureBuilder<List<Users>>(
                 future: spelldata,
@@ -51,7 +49,7 @@ class _SpellsState extends State<Spells> {
                   }
                 }),
           ),
-        ));
+        );
   }
 }
 
