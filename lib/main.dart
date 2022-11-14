@@ -19,7 +19,7 @@ void main() {
         '/': (context) => const MainMenu(),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/sheet': (context) =>  const Sheet(),
-        '/spells': (context) => const SpellList(),
+        '/spells': (context) => const Spells(),
       },
     ),
   );
