@@ -7,6 +7,7 @@ class Users {
   String index;
   String name;
   String url;
+
   Users({
     required this.index,
     required this.name,
@@ -14,10 +15,10 @@ class Users {
   });
 
   factory Users.fromJson(Map<String, dynamic> json) => Users(
-    index: json["index"],
-    name: json["name"],
-    url: json["url"],
-  );
+        index: json["index"],
+        name: json["name"],
+        url: json["url"],
+      );
 }
 
 Future<List<Users>> getSpells() async {
@@ -28,8 +29,7 @@ Future<List<Users>> getSpells() async {
     var jsonResponse = json.decode(response.body);
     List<Users> users = [];
     for (var u in jsonResponse) {
-      Users user =
-      Users(index: u['index'], name: u['name'], url: u['url']);
+      Users user = Users(index: u['index'], name: u['name'], url: u['url']);
       users.add(user);
     }
     return users;
@@ -37,4 +37,3 @@ Future<List<Users>> getSpells() async {
     throw Exception('Failed to load post');
   }
 }
-
