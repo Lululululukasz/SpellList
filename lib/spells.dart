@@ -4,7 +4,7 @@ import 'dart:async';
 
 
 
-
+//TODO find out how the fuck you can rename Users without killing code
 
 class Spells extends StatefulWidget {
   const Spells({super.key});
@@ -18,9 +18,8 @@ class _SpellsState extends State<Spells> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    spelldata = getUsers();
+    spelldata = getSpells();
   }
 
   @override
@@ -56,4 +55,3 @@ class _SpellsState extends State<Spells> {
   }
 }
 
-//TODO results.results needed api call is different

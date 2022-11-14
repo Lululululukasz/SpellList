@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+//TODO WHY THE FUCK CANT I RENAME USERS
 class Users {
   String index;
   String name;
@@ -19,7 +20,7 @@ class Users {
   );
 }
 
-Future<List<Users>> getUsers() async {
+Future<List<Users>> getSpells() async {
   final response = await http.get(
     Uri.parse('https://gultendier.github.io/apidata/spells'),
   );
