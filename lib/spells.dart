@@ -31,14 +31,15 @@ class _SpellsState extends State<Spells> {
             future: spelldata,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                var filteredspells = snapshot.data!.where((element) => element.name == "Aid").toList(); //Filters for aid
+                var filteredSpell = snapshot.data!.where((element) => element.characterclass.contains("Wizard")).toList();
+                //filteredSpell change to element.class.contains(Variable) after api was edited
                 return ListView.builder(
-                    itemCount: filteredspells.length,
+                    itemCount: filteredSpell.length,
                     itemBuilder: (context, index) {
 
                       return ListTile(
-                        title: Text(filteredspells[index].name),
-                        subtitle: Text(snapshot.data![index].index),
+                        title: Text(filteredSpell[index].name),
+                        subtitle: Text(filteredSpell[index].characterclass),
                         // trailing: Text(snapshot.data![index].url), not needed right now
                       );
                     });

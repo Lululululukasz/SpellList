@@ -6,17 +6,20 @@ class SpellList {
   String index;
   String name;
   String url;
+  String characterclass;
 
   SpellList({
     required this.index,
     required this.name,
     required this.url,
+    required this.characterclass,
   });
 
   factory SpellList.fromJson(Map<String, dynamic> json) => SpellList(
         index: json["index"],
         name: json["name"],
         url: json["url"],
+        characterclass: json["characterclass"],
       );
 }
 
@@ -28,7 +31,7 @@ Future<List<SpellList>> getSpells() async {
     var jsonResponse = json.decode(response.body);
     List<SpellList> spells = [];
     for (var u in jsonResponse) {
-      SpellList spell = SpellList(index: u['index'], name: u['name'], url: u['url']);
+      SpellList spell = SpellList(index: u['index'], name: u['name'], url: u['url'], characterclass: u['characterclass']);
       spells.add(spell);
     }
     return spells;
