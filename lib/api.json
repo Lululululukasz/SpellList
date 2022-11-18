@@ -1,0 +1,1916 @@
+[
+  {
+    "index": "acid-arrow",
+    "name": "Acid Arrow",
+    "url": "/api/spells/acid-arrow",
+    "class": "Wizard"
+  },
+  {
+    "index": "acid-splash",
+    "name": "Acid Splash",
+    "url": "/api/spells/acid-splash",
+    "class": "Sorcerer, Wizard"
+  },
+  {
+    "index": "aid",
+    "name": "Aid",
+    "url": "/api/spells/aid",
+    "class": "Cleric, Paladin"
+  },
+  {
+    "index": "alarm",
+    "name": "Alarm",
+    "url": "/api/spells/alarm",
+    "class": "Ranger, Wizard"
+  },
+  {
+    "index": "alter-self",
+    "name": "Alter Self",
+    "url": "/api/spells/alter-self",
+    "class": "Sorcerer, Wizard"
+  },
+  {
+    "index": "animal-friendship",
+    "name": "Animal Friendship",
+    "url": "/api/spells/animal-friendship",
+    "class": "Bard, Druid, Ranger"
+  },
+  {
+    "index": "animal-messenger",
+    "name": "Animal Messenger",
+    "url": "/api/spells/animal-messenger",
+    "class": "Bard, Druid, Ranger"
+  },
+  {
+    "index": "animal-shapes",
+    "name": "Animal Shapes",
+    "url": "/api/spells/animal-shapes",
+    "class": "Druid"
+  },
+  {
+    "index": "animate-dead",
+    "name": "Animate Dead",
+    "url": "/api/spells/animate-dead",
+    "class": "Cleric, Wizard"
+  },
+  {
+    "index": "animate-objects",
+    "name": "Animate Objects",
+    "url": "/api/spells/animate-objects",
+    "class": "Bard, Sorcerer, Wizard"
+  },
+  {
+    "index": "antilife-shell",
+    "name": "Antilife Shell",
+    "url": "/api/spells/antilife-shell",
+    "class": "Druid"
+  },
+  {
+    "index": "antimagic-field",
+    "name": "Antimagic Field",
+    "url": "/api/spells/antimagic-field",
+    "class": "Cleric, Wizard"
+  },
+  {
+    "index": "antipathy-sympathy",
+    "name": "Antipathy/Sympathy",
+    "url": "/api/spells/antipathy-sympathy",
+    "class": ""
+  },
+  {
+    "index": "arcane-eye",
+    "name": "Arcane Eye",
+    "url": "/api/spells/arcane-eye",
+    "class": "Wizard"
+  },
+  {
+    "index": "arcane-hand",
+    "name": "Arcane Hand",
+    "url": "/api/spells/arcane-hand",
+    "class": "Wizard"
+  },
+  {
+    "index": "arcane-lock",
+    "name": "Arcane Lock",
+    "url": "/api/spells/arcane-lock",
+    "class": "Wizard"
+  },
+  {
+    "index": "arcane-sword",
+    "name": "Arcane Sword",
+    "url": "/api/spells/arcane-sword",
+    "class": "Bard, Wizard"
+  },
+  {
+    "index": "arcanists-magic-aura",
+    "name": "Arcanist's Magic Aura",
+    "url": "/api/spells/arcanists-magic-aura",
+    "class": "Wizard"
+  },
+  {
+    "index": "astral-projection",
+    "name": "Astral Projection",
+    "url": "/api/spells/astral-projection",
+    "class": "Cleric, Warlock, Wizard"
+  },
+  {
+    "index": "augury",
+    "name": "Augury",
+    "url": "/api/spells/augury",
+    "class": "Cleric"
+  },
+  {
+    "index": "awaken",
+    "name": "Awaken",
+    "url": "/api/spells/awaken",
+    "class": "Bard, Druid"
+  },
+  {
+    "index": "bane",
+    "name": "Bane",
+    "url": "/api/spells/bane",
+    "class": ""
+  },
+  {
+    "index": "banishment",
+    "name": "Banishment",
+    "url": "/api/spells/banishment",
+    "class": ""
+  },
+  {
+    "index": "barkskin",
+    "name": "Barkskin",
+    "url": "/api/spells/barkskin",
+    "class": ""
+  },
+  {
+    "index": "beacon-of-hope",
+    "name": "Beacon of Hope",
+    "url": "/api/spells/beacon-of-hope",
+    "class": ""
+  },
+  {
+    "index": "bestow-curse",
+    "name": "Bestow Curse",
+    "url": "/api/spells/bestow-curse",
+    "class": ""
+  },
+  {
+    "index": "black-tentacles",
+    "name": "Black Tentacles",
+    "url": "/api/spells/black-tentacles",
+    "class": ""
+  },
+  {
+    "index": "blade-barrier",
+    "name": "Blade Barrier",
+    "url": "/api/spells/blade-barrier",
+    "class": ""
+  },
+  {
+    "index": "bless",
+    "name": "Bless",
+    "url": "/api/spells/bless",
+    "class": ""
+  },
+  {
+    "index": "blight",
+    "name": "Blight",
+    "url": "/api/spells/blight",
+    "class": ""
+  },
+  {
+    "index": "blindness-deafness",
+    "name": "Blindness/Deafness",
+    "url": "/api/spells/blindness-deafness",
+    "class": ""
+  },
+  {
+    "index": "blink",
+    "name": "Blink",
+    "url": "/api/spells/blink",
+    "class": ""
+  },
+  {
+    "index": "blur",
+    "name": "Blur",
+    "url": "/api/spells/blur",
+    "class": ""
+  },
+  {
+    "index": "branding-smite",
+    "name": "Branding Smite",
+    "url": "/api/spells/branding-smite",
+    "class": ""
+  },
+  {
+    "index": "burning-hands",
+    "name": "Burning Hands",
+    "url": "/api/spells/burning-hands",
+    "class": ""
+  },
+  {
+    "index": "call-lightning",
+    "name": "Call Lightning",
+    "url": "/api/spells/call-lightning",
+    "class": ""
+  },
+  {
+    "index": "calm-emotions",
+    "name": "Calm Emotions",
+    "url": "/api/spells/calm-emotions",
+    "class": ""
+  },
+  {
+    "index": "chain-lightning",
+    "name": "Chain Lightning",
+    "url": "/api/spells/chain-lightning",
+    "class": ""
+  },
+  {
+    "index": "charm-person",
+    "name": "Charm Person",
+    "url": "/api/spells/charm-person",
+    "class": ""
+  },
+  {
+    "index": "chill-touch",
+    "name": "Chill Touch",
+    "url": "/api/spells/chill-touch",
+    "class": ""
+  },
+  {
+    "index": "circle-of-death",
+    "name": "Circle of Death",
+    "url": "/api/spells/circle-of-death",
+    "class": ""
+  },
+  {
+    "index": "clairvoyance",
+    "name": "Clairvoyance",
+    "url": "/api/spells/clairvoyance",
+    "class": ""
+  },
+  {
+    "index": "clone",
+    "name": "Clone",
+    "url": "/api/spells/clone",
+    "class": ""
+  },
+  {
+    "index": "cloudkill",
+    "name": "Cloudkill",
+    "url": "/api/spells/cloudkill",
+    "class": ""
+  },
+  {
+    "index": "color-spray",
+    "name": "Color Spray",
+    "url": "/api/spells/color-spray",
+    "class": ""
+  },
+  {
+    "index": "command",
+    "name": "Command",
+    "url": "/api/spells/command",
+    "class": ""
+  },
+  {
+    "index": "commune",
+    "name": "Commune",
+    "url": "/api/spells/commune",
+    "class": ""
+  },
+  {
+    "index": "commune-with-nature",
+    "name": "Commune With Nature",
+    "url": "/api/spells/commune-with-nature",
+    "class": ""
+  },
+  {
+    "index": "comprehend-languages",
+    "name": "Comprehend Languages",
+    "url": "/api/spells/comprehend-languages",
+    "class": ""
+  },
+  {
+    "index": "compulsion",
+    "name": "Compulsion",
+    "url": "/api/spells/compulsion",
+    "class": ""
+  },
+  {
+    "index": "cone-of-cold",
+    "name": "Cone of Cold",
+    "url": "/api/spells/cone-of-cold",
+    "class": ""
+  },
+  {
+    "index": "confusion",
+    "name": "Confusion",
+    "url": "/api/spells/confusion",
+    "class": ""
+  },
+  {
+    "index": "conjure-animals",
+    "name": "Conjure Animals",
+    "url": "/api/spells/conjure-animals",
+    "class": ""
+  },
+  {
+    "index": "conjure-celestial",
+    "name": "Conjure Celestial",
+    "url": "/api/spells/conjure-celestial",
+    "class": ""
+  },
+  {
+    "index": "conjure-elemental",
+    "name": "Conjure Elemental",
+    "url": "/api/spells/conjure-elemental",
+    "class": ""
+  },
+  {
+    "index": "conjure-fey",
+    "name": "Conjure Fey",
+    "url": "/api/spells/conjure-fey",
+    "class": ""
+  },
+  {
+    "index": "conjure-minor-elementals",
+    "name": "Conjure Minor Elementals",
+    "url": "/api/spells/conjure-minor-elementals",
+    "class": ""
+  },
+  {
+    "index": "conjure-woodland-beings",
+    "name": "Conjure Woodland Beings",
+    "url": "/api/spells/conjure-woodland-beings",
+    "class": ""
+  },
+  {
+    "index": "contact-other-plane",
+    "name": "Contact Other Plane",
+    "url": "/api/spells/contact-other-plane",
+    "class": ""
+  },
+  {
+    "index": "contagion",
+    "name": "Contagion",
+    "url": "/api/spells/contagion",
+    "class": ""
+  },
+  {
+    "index": "contingency",
+    "name": "Contingency",
+    "url": "/api/spells/contingency",
+    "class": ""
+  },
+  {
+    "index": "continual-flame",
+    "name": "Continual Flame",
+    "url": "/api/spells/continual-flame",
+    "class": ""
+  },
+  {
+    "index": "control-water",
+    "name": "Control Water",
+    "url": "/api/spells/control-water",
+    "class": ""
+  },
+  {
+    "index": "control-weather",
+    "name": "Control Weather",
+    "url": "/api/spells/control-weather",
+    "class": ""
+  },
+  {
+    "index": "counterspell",
+    "name": "Counterspell",
+    "url": "/api/spells/counterspell",
+    "class": ""
+  },
+  {
+    "index": "create-food-and-water",
+    "name": "Create Food and Water",
+    "url": "/api/spells/create-food-and-water",
+    "class": ""
+  },
+  {
+    "index": "create-or-destroy-water",
+    "name": "Create or Destroy Water",
+    "url": "/api/spells/create-or-destroy-water",
+    "class": ""
+  },
+  {
+    "index": "create-undead",
+    "name": "Create Undead",
+    "url": "/api/spells/create-undead",
+    "class": ""
+  },
+  {
+    "index": "creation",
+    "name": "Creation",
+    "url": "/api/spells/creation",
+    "class": ""
+  },
+  {
+    "index": "cure-wounds",
+    "name": "Cure Wounds",
+    "url": "/api/spells/cure-wounds",
+    "class": ""
+  },
+  {
+    "index": "dancing-lights",
+    "name": "Dancing Lights",
+    "url": "/api/spells/dancing-lights",
+    "class": ""
+  },
+  {
+    "index": "darkness",
+    "name": "Darkness",
+    "url": "/api/spells/darkness",
+    "class": ""
+  },
+  {
+    "index": "darkvision",
+    "name": "Darkvision",
+    "url": "/api/spells/darkvision",
+    "class": ""
+  },
+  {
+    "index": "daylight",
+    "name": "Daylight",
+    "url": "/api/spells/daylight",
+    "class": ""
+  },
+  {
+    "index": "death-ward",
+    "name": "Death Ward",
+    "url": "/api/spells/death-ward",
+    "class": ""
+  },
+  {
+    "index": "delayed-blast-fireball",
+    "name": "Delayed Blast Fireball",
+    "url": "/api/spells/delayed-blast-fireball",
+    "class": ""
+  },
+  {
+    "index": "demiplane",
+    "name": "Demiplane",
+    "url": "/api/spells/demiplane",
+    "class": ""
+  },
+  {
+    "index": "detect-evil-and-good",
+    "name": "Detect Evil and Good",
+    "url": "/api/spells/detect-evil-and-good",
+    "class": ""
+  },
+  {
+    "index": "detect-magic",
+    "name": "Detect Magic",
+    "url": "/api/spells/detect-magic",
+    "class": ""
+  },
+  {
+    "index": "detect-poison-and-disease",
+    "name": "Detect Poison and Disease",
+    "url": "/api/spells/detect-poison-and-disease",
+    "class": ""
+  },
+  {
+    "index": "detect-thoughts",
+    "name": "Detect Thoughts",
+    "url": "/api/spells/detect-thoughts",
+    "class": ""
+  },
+  {
+    "index": "dimension-door",
+    "name": "Dimension Door",
+    "url": "/api/spells/dimension-door",
+    "class": ""
+  },
+  {
+    "index": "disguise-self",
+    "name": "Disguise Self",
+    "url": "/api/spells/disguise-self",
+    "class": ""
+  },
+  {
+    "index": "disintegrate",
+    "name": "Disintegrate",
+    "url": "/api/spells/disintegrate",
+    "class": ""
+  },
+  {
+    "index": "dispel-evil-and-good",
+    "name": "Dispel Evil and Good",
+    "url": "/api/spells/dispel-evil-and-good",
+    "class": ""
+  },
+  {
+    "index": "dispel-magic",
+    "name": "Dispel Magic",
+    "url": "/api/spells/dispel-magic",
+    "class": ""
+  },
+  {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/spells/divination",
+    "class": ""
+  },
+  {
+    "index": "divine-favor",
+    "name": "Divine Favor",
+    "url": "/api/spells/divine-favor",
+    "class": ""
+  },
+  {
+    "index": "divine-word",
+    "name": "Divine Word",
+    "url": "/api/spells/divine-word",
+    "class": ""
+  },
+  {
+    "index": "dominate-beast",
+    "name": "Dominate Beast",
+    "url": "/api/spells/dominate-beast",
+    "class": ""
+  },
+  {
+    "index": "dominate-monster",
+    "name": "Dominate Monster",
+    "url": "/api/spells/dominate-monster",
+    "class": ""
+  },
+  {
+    "index": "dominate-person",
+    "name": "Dominate Person",
+    "url": "/api/spells/dominate-person",
+    "class": ""
+  },
+  {
+    "index": "dream",
+    "name": "Dream",
+    "url": "/api/spells/dream",
+    "class": ""
+  },
+  {
+    "index": "druidcraft",
+    "name": "Druidcraft",
+    "url": "/api/spells/druidcraft",
+    "class": ""
+  },
+  {
+    "index": "earthquake",
+    "name": "Earthquake",
+    "url": "/api/spells/earthquake",
+    "class": ""
+  },
+  {
+    "index": "eldritch-blast",
+    "name": "Eldritch Blast",
+    "url": "/api/spells/eldritch-blast",
+    "class": ""
+  },
+  {
+    "index": "enhance-ability",
+    "name": "Enhance Ability",
+    "url": "/api/spells/enhance-ability",
+    "class": ""
+  },
+  {
+    "index": "enlarge-reduce",
+    "name": "Enlarge/Reduce",
+    "url": "/api/spells/enlarge-reduce",
+    "class": ""
+  },
+  {
+    "index": "entangle",
+    "name": "Entangle",
+    "url": "/api/spells/entangle",
+    "class": ""
+  },
+  {
+    "index": "enthrall",
+    "name": "Enthrall",
+    "url": "/api/spells/enthrall",
+    "class": ""
+  },
+  {
+    "index": "etherealness",
+    "name": "Etherealness",
+    "url": "/api/spells/etherealness",
+    "class": ""
+  },
+  {
+    "index": "expeditious-retreat",
+    "name": "Expeditious Retreat",
+    "url": "/api/spells/expeditious-retreat",
+    "class": ""
+  },
+  {
+    "index": "eyebite",
+    "name": "Eyebite",
+    "url": "/api/spells/eyebite",
+    "class": ""
+  },
+  {
+    "index": "fabricate",
+    "name": "Fabricate",
+    "url": "/api/spells/fabricate",
+    "class": ""
+  },
+  {
+    "index": "faerie-fire",
+    "name": "Faerie Fire",
+    "url": "/api/spells/faerie-fire",
+    "class": ""
+  },
+  {
+    "index": "faithful-hound",
+    "name": "Faithful Hound",
+    "url": "/api/spells/faithful-hound",
+    "class": ""
+  },
+  {
+    "index": "false-life",
+    "name": "False Life",
+    "url": "/api/spells/false-life",
+    "class": ""
+  },
+  {
+    "index": "fear",
+    "name": "Fear",
+    "url": "/api/spells/fear",
+    "class": ""
+  },
+  {
+    "index": "feather-fall",
+    "name": "Feather Fall",
+    "url": "/api/spells/feather-fall",
+    "class": ""
+  },
+  {
+    "index": "feeblemind",
+    "name": "Feeblemind",
+    "url": "/api/spells/feeblemind",
+    "class": ""
+  },
+  {
+    "index": "find-familiar",
+    "name": "Find Familiar",
+    "url": "/api/spells/find-familiar",
+    "class": ""
+  },
+  {
+    "index": "find-steed",
+    "name": "Find Steed",
+    "url": "/api/spells/find-steed",
+    "class": ""
+  },
+  {
+    "index": "find-the-path",
+    "name": "Find the Path",
+    "url": "/api/spells/find-the-path",
+    "class": ""
+  },
+  {
+    "index": "find-traps",
+    "name": "Find Traps",
+    "url": "/api/spells/find-traps",
+    "class": ""
+  },
+  {
+    "index": "finger-of-death",
+    "name": "Finger of Death",
+    "url": "/api/spells/finger-of-death",
+    "class": ""
+  },
+  {
+    "index": "fire-bolt",
+    "name": "Fire Bolt",
+    "url": "/api/spells/fire-bolt",
+    "class": ""
+  },
+  {
+    "index": "fire-shield",
+    "name": "Fire Shield",
+    "url": "/api/spells/fire-shield",
+    "class": ""
+  },
+  {
+    "index": "fire-storm",
+    "name": "Fire Storm",
+    "url": "/api/spells/fire-storm",
+    "class": ""
+  },
+  {
+    "index": "fireball",
+    "name": "Fireball",
+    "url": "/api/spells/fireball",
+    "class": ""
+  },
+  {
+    "index": "flame-blade",
+    "name": "Flame Blade",
+    "url": "/api/spells/flame-blade",
+    "class": ""
+  },
+  {
+    "index": "flame-strike",
+    "name": "Flame Strike",
+    "url": "/api/spells/flame-strike",
+    "class": ""
+  },
+  {
+    "index": "flaming-sphere",
+    "name": "Flaming Sphere",
+    "url": "/api/spells/flaming-sphere",
+    "class": ""
+  },
+  {
+    "index": "flesh-to-stone",
+    "name": "Flesh to Stone",
+    "url": "/api/spells/flesh-to-stone",
+    "class": ""
+  },
+  {
+    "index": "floating-disk",
+    "name": "Floating Disk",
+    "url": "/api/spells/floating-disk",
+    "class": ""
+  },
+  {
+    "index": "fly",
+    "name": "Fly",
+    "url": "/api/spells/fly",
+    "class": ""
+  },
+  {
+    "index": "fog-cloud",
+    "name": "Fog Cloud",
+    "url": "/api/spells/fog-cloud",
+    "class": ""
+  },
+  {
+    "index": "forbiddance",
+    "name": "Forbiddance",
+    "url": "/api/spells/forbiddance",
+    "class": ""
+  },
+  {
+    "index": "forcecage",
+    "name": "Forcecage",
+    "url": "/api/spells/forcecage",
+    "class": ""
+  },
+  {
+    "index": "foresight",
+    "name": "Foresight",
+    "url": "/api/spells/foresight",
+    "class": ""
+  },
+  {
+    "index": "freedom-of-movement",
+    "name": "Freedom of Movement",
+    "url": "/api/spells/freedom-of-movement",
+    "class": ""
+  },
+  {
+    "index": "freezing-sphere",
+    "name": "Freezing Sphere",
+    "url": "/api/spells/freezing-sphere",
+    "class": ""
+  },
+  {
+    "index": "gaseous-form",
+    "name": "Gaseous Form",
+    "url": "/api/spells/gaseous-form",
+    "class": ""
+  },
+  {
+    "index": "gate",
+    "name": "Gate",
+    "url": "/api/spells/gate",
+    "class": ""
+  },
+  {
+    "index": "geas",
+    "name": "Geas",
+    "url": "/api/spells/geas",
+    "class": ""
+  },
+  {
+    "index": "gentle-repose",
+    "name": "Gentle Repose",
+    "url": "/api/spells/gentle-repose",
+    "class": ""
+  },
+  {
+    "index": "giant-insect",
+    "name": "Giant Insect",
+    "url": "/api/spells/giant-insect",
+    "class": ""
+  },
+  {
+    "index": "glibness",
+    "name": "Glibness",
+    "url": "/api/spells/glibness",
+    "class": ""
+  },
+  {
+    "index": "globe-of-invulnerability",
+    "name": "Globe of Invulnerability",
+    "url": "/api/spells/globe-of-invulnerability",
+    "class": ""
+  },
+  {
+    "index": "glyph-of-warding",
+    "name": "Glyph of Warding",
+    "url": "/api/spells/glyph-of-warding",
+    "class": ""
+  },
+  {
+    "index": "goodberry",
+    "name": "Goodberry",
+    "url": "/api/spells/goodberry",
+    "class": ""
+  },
+  {
+    "index": "grease",
+    "name": "Grease",
+    "url": "/api/spells/grease",
+    "class": ""
+  },
+  {
+    "index": "greater-invisibility",
+    "name": "Greater Invisibility",
+    "url": "/api/spells/greater-invisibility",
+    "class": ""
+  },
+  {
+    "index": "greater-restoration",
+    "name": "Greater Restoration",
+    "url": "/api/spells/greater-restoration",
+    "class": ""
+  },
+  {
+    "index": "guardian-of-faith",
+    "name": "Guardian of Faith",
+    "url": "/api/spells/guardian-of-faith",
+    "class": ""
+  },
+  {
+    "index": "guards-and-wards",
+    "name": "Guards and Wards",
+    "url": "/api/spells/guards-and-wards",
+    "class": ""
+  },
+  {
+    "index": "guidance",
+    "name": "Guidance",
+    "url": "/api/spells/guidance",
+    "class": ""
+  },
+  {
+    "index": "guiding-bolt",
+    "name": "Guiding Bolt",
+    "url": "/api/spells/guiding-bolt",
+    "class": ""
+  },
+  {
+    "index": "gust-of-wind",
+    "name": "Gust of Wind",
+    "url": "/api/spells/gust-of-wind",
+    "class": ""
+  },
+  {
+    "index": "hallow",
+    "name": "Hallow",
+    "url": "/api/spells/hallow",
+    "class": ""
+  },
+  {
+    "index": "hallucinatory-terrain",
+    "name": "Hallucinatory Terrain",
+    "url": "/api/spells/hallucinatory-terrain",
+    "class": ""
+  },
+  {
+    "index": "harm",
+    "name": "Harm",
+    "url": "/api/spells/harm",
+    "class": ""
+  },
+  {
+    "index": "haste",
+    "name": "Haste",
+    "url": "/api/spells/haste",
+    "class": ""
+  },
+  {
+    "index": "heal",
+    "name": "Heal",
+    "url": "/api/spells/heal",
+    "class": ""
+  },
+  {
+    "index": "healing-word",
+    "name": "Healing Word",
+    "url": "/api/spells/healing-word",
+    "class": ""
+  },
+  {
+    "index": "heat-metal",
+    "name": "Heat Metal",
+    "url": "/api/spells/heat-metal",
+    "class": ""
+  },
+  {
+    "index": "hellish-rebuke",
+    "name": "Hellish Rebuke",
+    "url": "/api/spells/hellish-rebuke",
+    "class": ""
+  },
+  {
+    "index": "heroes-feast",
+    "name": "Heroes' Feast",
+    "url": "/api/spells/heroes-feast",
+    "class": ""
+  },
+  {
+    "index": "heroism",
+    "name": "Heroism",
+    "url": "/api/spells/heroism",
+    "class": ""
+  },
+  {
+    "index": "hideous-laughter",
+    "name": "Hideous Laughter",
+    "url": "/api/spells/hideous-laughter",
+    "class": ""
+  },
+  {
+    "index": "hold-monster",
+    "name": "Hold Monster",
+    "url": "/api/spells/hold-monster",
+    "class": ""
+  },
+  {
+    "index": "hold-person",
+    "name": "Hold Person",
+    "url": "/api/spells/hold-person",
+    "class": ""
+  },
+  {
+    "index": "holy-aura",
+    "name": "Holy Aura",
+    "url": "/api/spells/holy-aura",
+    "class": ""
+  },
+  {
+    "index": "hunters-mark",
+    "name": "Hunter's Mark",
+    "url": "/api/spells/hunters-mark",
+    "class": ""
+  },
+  {
+    "index": "hypnotic-pattern",
+    "name": "Hypnotic Pattern",
+    "url": "/api/spells/hypnotic-pattern",
+    "class": ""
+  },
+  {
+    "index": "ice-storm",
+    "name": "Ice Storm",
+    "url": "/api/spells/ice-storm",
+    "class": ""
+  },
+  {
+    "index": "identify",
+    "name": "Identify",
+    "url": "/api/spells/identify",
+    "class": ""
+  },
+  {
+    "index": "illusory-script",
+    "name": "Illusory Script",
+    "url": "/api/spells/illusory-script",
+    "class": ""
+  },
+  {
+    "index": "imprisonment",
+    "name": "Imprisonment",
+    "url": "/api/spells/imprisonment",
+    "class": ""
+  },
+  {
+    "index": "incendiary-cloud",
+    "name": "Incendiary Cloud",
+    "url": "/api/spells/incendiary-cloud",
+    "class": ""
+  },
+  {
+    "index": "inflict-wounds",
+    "name": "Inflict Wounds",
+    "url": "/api/spells/inflict-wounds",
+    "class": ""
+  },
+  {
+    "index": "insect-plague",
+    "name": "Insect Plague",
+    "url": "/api/spells/insect-plague",
+    "class": ""
+  },
+  {
+    "index": "instant-summons",
+    "name": "Instant Summons",
+    "url": "/api/spells/instant-summons",
+    "class": ""
+  },
+  {
+    "index": "invisibility",
+    "name": "Invisibility",
+    "url": "/api/spells/invisibility",
+    "class": ""
+  },
+  {
+    "index": "irresistible-dance",
+    "name": "Irresistible Dance",
+    "url": "/api/spells/irresistible-dance",
+    "class": ""
+  },
+  {
+    "index": "jump",
+    "name": "Jump",
+    "url": "/api/spells/jump",
+    "class": ""
+  },
+  {
+    "index": "knock",
+    "name": "Knock",
+    "url": "/api/spells/knock",
+    "class": ""
+  },
+  {
+    "index": "legend-lore",
+    "name": "Legend Lore",
+    "url": "/api/spells/legend-lore",
+    "class": ""
+  },
+  {
+    "index": "lesser-restoration",
+    "name": "Lesser Restoration",
+    "url": "/api/spells/lesser-restoration",
+    "class": ""
+  },
+  {
+    "index": "levitate",
+    "name": "Levitate",
+    "url": "/api/spells/levitate",
+    "class": ""
+  },
+  {
+    "index": "light",
+    "name": "Light",
+    "url": "/api/spells/light",
+    "class": ""
+  },
+  {
+    "index": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "url": "/api/spells/lightning-bolt",
+    "class": ""
+  },
+  {
+    "index": "locate-animals-or-plants",
+    "name": "Locate Animals or Plants",
+    "url": "/api/spells/locate-animals-or-plants",
+    "class": ""
+  },
+  {
+    "index": "locate-creature",
+    "name": "Locate Creature",
+    "url": "/api/spells/locate-creature",
+    "class": ""
+  },
+  {
+    "index": "locate-object",
+    "name": "Locate Object",
+    "url": "/api/spells/locate-object",
+    "class": ""
+  },
+  {
+    "index": "longstrider",
+    "name": "Longstrider",
+    "url": "/api/spells/longstrider",
+    "class": ""
+  },
+  {
+    "index": "mage-armor",
+    "name": "Mage Armor",
+    "url": "/api/spells/mage-armor",
+    "class": ""
+  },
+  {
+    "index": "mage-hand",
+    "name": "Mage Hand",
+    "url": "/api/spells/mage-hand",
+    "class": ""
+  },
+  {
+    "index": "magic-circle",
+    "name": "Magic Circle",
+    "url": "/api/spells/magic-circle",
+    "class": ""
+  },
+  {
+    "index": "magic-jar",
+    "name": "Magic Jar",
+    "url": "/api/spells/magic-jar",
+    "class": ""
+  },
+  {
+    "index": "magic-missile",
+    "name": "Magic Missile",
+    "url": "/api/spells/magic-missile",
+    "class": ""
+  },
+  {
+    "index": "magic-mouth",
+    "name": "Magic Mouth",
+    "url": "/api/spells/magic-mouth",
+    "class": ""
+  },
+  {
+    "index": "magic-weapon",
+    "name": "Magic Weapon",
+    "url": "/api/spells/magic-weapon",
+    "class": ""
+  },
+  {
+    "index": "magnificent-mansion",
+    "name": "Magnificent Mansion",
+    "url": "/api/spells/magnificent-mansion",
+    "class": ""
+  },
+  {
+    "index": "major-image",
+    "name": "Major Image",
+    "url": "/api/spells/major-image",
+    "class": ""
+  },
+  {
+    "index": "mass-cure-wounds",
+    "name": "Mass Cure Wounds",
+    "url": "/api/spells/mass-cure-wounds",
+    "class": ""
+  },
+  {
+    "index": "mass-heal",
+    "name": "Mass Heal",
+    "url": "/api/spells/mass-heal",
+    "class": ""
+  },
+  {
+    "index": "mass-healing-word",
+    "name": "Mass Healing Word",
+    "url": "/api/spells/mass-healing-word",
+    "class": ""
+  },
+  {
+    "index": "mass-suggestion",
+    "name": "Mass Suggestion",
+    "url": "/api/spells/mass-suggestion",
+    "class": ""
+  },
+  {
+    "index": "maze",
+    "name": "Maze",
+    "url": "/api/spells/maze",
+    "class": ""
+  },
+  {
+    "index": "meld-into-stone",
+    "name": "Meld Into Stone",
+    "url": "/api/spells/meld-into-stone",
+    "class": ""
+  },
+  {
+    "index": "mending",
+    "name": "Mending",
+    "url": "/api/spells/mending",
+    "class": ""
+  },
+  {
+    "index": "message",
+    "name": "Message",
+    "url": "/api/spells/message",
+    "class": ""
+  },
+  {
+    "index": "meteor-swarm",
+    "name": "Meteor Swarm",
+    "url": "/api/spells/meteor-swarm",
+    "class": ""
+  },
+  {
+    "index": "mind-blank",
+    "name": "Mind Blank",
+    "url": "/api/spells/mind-blank",
+    "class": ""
+  },
+  {
+    "index": "minor-illusion",
+    "name": "Minor Illusion",
+    "url": "/api/spells/minor-illusion",
+    "class": ""
+  },
+  {
+    "index": "mirage-arcane",
+    "name": "Mirage Arcane",
+    "url": "/api/spells/mirage-arcane",
+    "class": ""
+  },
+  {
+    "index": "mirror-image",
+    "name": "Mirror Image",
+    "url": "/api/spells/mirror-image",
+    "class": ""
+  },
+  {
+    "index": "mislead",
+    "name": "Mislead",
+    "url": "/api/spells/mislead",
+    "class": ""
+  },
+  {
+    "index": "misty-step",
+    "name": "Misty Step",
+    "url": "/api/spells/misty-step",
+    "class": ""
+  },
+  {
+    "index": "modify-memory",
+    "name": "Modify Memory",
+    "url": "/api/spells/modify-memory",
+    "class": ""
+  },
+  {
+    "index": "moonbeam",
+    "name": "Moonbeam",
+    "url": "/api/spells/moonbeam",
+    "class": ""
+  },
+  {
+    "index": "move-earth",
+    "name": "Move Earth",
+    "url": "/api/spells/move-earth",
+    "class": ""
+  },
+  {
+    "index": "nondetection",
+    "name": "Nondetection",
+    "url": "/api/spells/nondetection",
+    "class": ""
+  },
+  {
+    "index": "pass-without-trace",
+    "name": "Pass Without Trace",
+    "url": "/api/spells/pass-without-trace",
+    "class": ""
+  },
+  {
+    "index": "passwall",
+    "name": "Passwall",
+    "url": "/api/spells/passwall",
+    "class": ""
+  },
+  {
+    "index": "phantasmal-killer",
+    "name": "Phantasmal Killer",
+    "url": "/api/spells/phantasmal-killer",
+    "class": ""
+  },
+  {
+    "index": "phantom-steed",
+    "name": "Phantom Steed",
+    "url": "/api/spells/phantom-steed",
+    "class": ""
+  },
+  {
+    "index": "planar-ally",
+    "name": "Planar Ally",
+    "url": "/api/spells/planar-ally",
+    "class": ""
+  },
+  {
+    "index": "planar-binding",
+    "name": "Planar Binding",
+    "url": "/api/spells/planar-binding",
+    "class": ""
+  },
+  {
+    "index": "plane-shift",
+    "name": "Plane Shift",
+    "url": "/api/spells/plane-shift",
+    "class": ""
+  },
+  {
+    "index": "plant-growth",
+    "name": "Plant Growth",
+    "url": "/api/spells/plant-growth",
+    "class": ""
+  },
+  {
+    "index": "poison-spray",
+    "name": "Poison Spray",
+    "url": "/api/spells/poison-spray",
+    "class": ""
+  },
+  {
+    "index": "polymorph",
+    "name": "Polymorph",
+    "url": "/api/spells/polymorph",
+    "class": ""
+  },
+  {
+    "index": "power-word-kill",
+    "name": "Power Word Kill",
+    "url": "/api/spells/power-word-kill",
+    "class": ""
+  },
+  {
+    "index": "power-word-stun",
+    "name": "Power Word Stun",
+    "url": "/api/spells/power-word-stun",
+    "class": ""
+  },
+  {
+    "index": "prayer-of-healing",
+    "name": "Prayer of Healing",
+    "url": "/api/spells/prayer-of-healing",
+    "class": ""
+  },
+  {
+    "index": "prestidigitation",
+    "name": "Prestidigitation",
+    "url": "/api/spells/prestidigitation",
+    "class": ""
+  },
+  {
+    "index": "prismatic-spray",
+    "name": "Prismatic Spray",
+    "url": "/api/spells/prismatic-spray",
+    "class": ""
+  },
+  {
+    "index": "prismatic-wall",
+    "name": "Prismatic Wall",
+    "url": "/api/spells/prismatic-wall",
+    "class": ""
+  },
+  {
+    "index": "private-sanctum",
+    "name": "Private Sanctum",
+    "url": "/api/spells/private-sanctum",
+    "class": ""
+  },
+  {
+    "index": "produce-flame",
+    "name": "Produce Flame",
+    "url": "/api/spells/produce-flame",
+    "class": ""
+  },
+  {
+    "index": "programmed-illusion",
+    "name": "Programmed Illusion",
+    "url": "/api/spells/programmed-illusion",
+    "class": ""
+  },
+  {
+    "index": "project-image",
+    "name": "Project Image",
+    "url": "/api/spells/project-image",
+    "class": ""
+  },
+  {
+    "index": "protection-from-energy",
+    "name": "Protection From Energy",
+    "url": "/api/spells/protection-from-energy",
+    "class": ""
+  },
+  {
+    "index": "protection-from-evil-and-good",
+    "name": "Protection from Evil and Good",
+    "url": "/api/spells/protection-from-evil-and-good",
+    "class": ""
+  },
+  {
+    "index": "protection-from-poison",
+    "name": "Protection from Poison",
+    "url": "/api/spells/protection-from-poison",
+    "class": ""
+  },
+  {
+    "index": "purify-food-and-drink",
+    "name": "Purify Food and Drink",
+    "url": "/api/spells/purify-food-and-drink",
+    "class": ""
+  },
+  {
+    "index": "raise-dead",
+    "name": "Raise Dead",
+    "url": "/api/spells/raise-dead",
+    "class": ""
+  },
+  {
+    "index": "ray-of-enfeeblement",
+    "name": "Ray of Enfeeblement",
+    "url": "/api/spells/ray-of-enfeeblement",
+    "class": ""
+  },
+  {
+    "index": "ray-of-frost",
+    "name": "Ray of Frost",
+    "url": "/api/spells/ray-of-frost",
+    "class": ""
+  },
+  {
+    "index": "regenerate",
+    "name": "Regenerate",
+    "url": "/api/spells/regenerate",
+    "class": ""
+  },
+  {
+    "index": "reincarnate",
+    "name": "Reincarnate",
+    "url": "/api/spells/reincarnate",
+    "class": ""
+  },
+  {
+    "index": "remove-curse",
+    "name": "Remove Curse",
+    "url": "/api/spells/remove-curse",
+    "class": ""
+  },
+  {
+    "index": "resilient-sphere",
+    "name": "Resilient Sphere",
+    "url": "/api/spells/resilient-sphere",
+    "class": ""
+  },
+  {
+    "index": "resistance",
+    "name": "Resistance",
+    "url": "/api/spells/resistance",
+    "class": ""
+  },
+  {
+    "index": "resurrection",
+    "name": "Resurrection",
+    "url": "/api/spells/resurrection",
+    "class": ""
+  },
+  {
+    "index": "reverse-gravity",
+    "name": "Reverse Gravity",
+    "url": "/api/spells/reverse-gravity",
+    "class": ""
+  },
+  {
+    "index": "revivify",
+    "name": "Revivify",
+    "url": "/api/spells/revivify",
+    "class": ""
+  },
+  {
+    "index": "rope-trick",
+    "name": "Rope Trick",
+    "url": "/api/spells/rope-trick",
+    "class": ""
+  },
+  {
+    "index": "sacred-flame",
+    "name": "Sacred Flame",
+    "url": "/api/spells/sacred-flame",
+    "class": ""
+  },
+  {
+    "index": "sanctuary",
+    "name": "Sanctuary",
+    "url": "/api/spells/sanctuary",
+    "class": ""
+  },
+  {
+    "index": "scorching-ray",
+    "name": "Scorching Ray",
+    "url": "/api/spells/scorching-ray",
+    "class": ""
+  },
+  {
+    "index": "scrying",
+    "name": "Scrying",
+    "url": "/api/spells/scrying",
+    "class": ""
+  },
+  {
+    "index": "secret-chest",
+    "name": "Secret Chest",
+    "url": "/api/spells/secret-chest",
+    "class": ""
+  },
+  {
+    "index": "see-invisibility",
+    "name": "See Invisibility",
+    "url": "/api/spells/see-invisibility",
+    "class": ""
+  },
+  {
+    "index": "seeming",
+    "name": "Seeming",
+    "url": "/api/spells/seeming",
+    "class": ""
+  },
+  {
+    "index": "sending",
+    "name": "Sending",
+    "url": "/api/spells/sending",
+    "class": ""
+  },
+  {
+    "index": "sequester",
+    "name": "Sequester",
+    "url": "/api/spells/sequester",
+    "class": ""
+  },
+  {
+    "index": "shapechange",
+    "name": "Shapechange",
+    "url": "/api/spells/shapechange",
+    "class": ""
+  },
+  {
+    "index": "shatter",
+    "name": "Shatter",
+    "url": "/api/spells/shatter",
+    "class": ""
+  },
+  {
+    "index": "shield",
+    "name": "Shield",
+    "url": "/api/spells/shield",
+    "class": ""
+  },
+  {
+    "index": "shield-of-faith",
+    "name": "Shield of Faith",
+    "url": "/api/spells/shield-of-faith",
+    "class": ""
+  },
+  {
+    "index": "shillelagh",
+    "name": "Shillelagh",
+    "url": "/api/spells/shillelagh",
+    "class": ""
+  },
+  {
+    "index": "shocking-grasp",
+    "name": "Shocking Grasp",
+    "url": "/api/spells/shocking-grasp",
+    "class": ""
+  },
+  {
+    "index": "silence",
+    "name": "Silence",
+    "url": "/api/spells/silence",
+    "class": ""
+  },
+  {
+    "index": "silent-image",
+    "name": "Silent Image",
+    "url": "/api/spells/silent-image",
+    "class": ""
+  },
+  {
+    "index": "simulacrum",
+    "name": "Simulacrum",
+    "url": "/api/spells/simulacrum",
+    "class": ""
+  },
+  {
+    "index": "sleep",
+    "name": "Sleep",
+    "url": "/api/spells/sleep",
+    "class": ""
+  },
+  {
+    "index": "sleet-storm",
+    "name": "Sleet Storm",
+    "url": "/api/spells/sleet-storm",
+    "class": ""
+  },
+  {
+    "index": "slow",
+    "name": "Slow",
+    "url": "/api/spells/slow",
+    "class": ""
+  },
+  {
+    "index": "spare-the-dying",
+    "name": "Spare the Dying",
+    "url": "/api/spells/spare-the-dying",
+    "class": ""
+  },
+  {
+    "index": "speak-with-animals",
+    "name": "Speak with Animals",
+    "url": "/api/spells/speak-with-animals",
+    "class": ""
+  },
+  {
+    "index": "speak-with-dead",
+    "name": "Speak with Dead",
+    "url": "/api/spells/speak-with-dead",
+    "class": ""
+  },
+  {
+    "index": "speak-with-plants",
+    "name": "Speak with Plants",
+    "url": "/api/spells/speak-with-plants",
+    "class": ""
+  },
+  {
+    "index": "spider-climb",
+    "name": "Spider Climb",
+    "url": "/api/spells/spider-climb",
+    "class": ""
+  },
+  {
+    "index": "spike-growth",
+    "name": "Spike Growth",
+    "url": "/api/spells/spike-growth",
+    "class": ""
+  },
+  {
+    "index": "spirit-guardians",
+    "name": "Spirit Guardians",
+    "url": "/api/spells/spirit-guardians",
+    "class": ""
+  },
+  {
+    "index": "spiritual-weapon",
+    "name": "Spiritual Weapon",
+    "url": "/api/spells/spiritual-weapon",
+    "class": ""
+  },
+  {
+    "index": "stinking-cloud",
+    "name": "Stinking Cloud",
+    "url": "/api/spells/stinking-cloud",
+    "class": ""
+  },
+  {
+    "index": "stone-shape",
+    "name": "Stone Shape",
+    "url": "/api/spells/stone-shape",
+    "class": ""
+  },
+  {
+    "index": "stoneskin",
+    "name": "Stoneskin",
+    "url": "/api/spells/stoneskin",
+    "class": ""
+  },
+  {
+    "index": "storm-of-vengeance",
+    "name": "Storm of Vengeance",
+    "url": "/api/spells/storm-of-vengeance",
+    "class": ""
+  },
+  {
+    "index": "suggestion",
+    "name": "Suggestion",
+    "url": "/api/spells/suggestion",
+    "class": ""
+  },
+  {
+    "index": "sunbeam",
+    "name": "Sunbeam",
+    "url": "/api/spells/sunbeam",
+    "class": ""
+  },
+  {
+    "index": "sunburst",
+    "name": "Sunburst",
+    "url": "/api/spells/sunburst",
+    "class": ""
+  },
+  {
+    "index": "symbol",
+    "name": "Symbol",
+    "url": "/api/spells/symbol",
+    "class": ""
+  },
+  {
+    "index": "telekinesis",
+    "name": "Telekinesis",
+    "url": "/api/spells/telekinesis",
+    "class": ""
+  },
+  {
+    "index": "telepathic-bond",
+    "name": "Telepathic Bond",
+    "url": "/api/spells/telepathic-bond",
+    "class": ""
+  },
+  {
+    "index": "teleport",
+    "name": "Teleport",
+    "url": "/api/spells/teleport",
+    "class": ""
+  },
+  {
+    "index": "teleportation-circle",
+    "name": "Teleportation Circle",
+    "url": "/api/spells/teleportation-circle",
+    "class": ""
+  },
+  {
+    "index": "thaumaturgy",
+    "name": "Thaumaturgy",
+    "url": "/api/spells/thaumaturgy",
+    "class": ""
+  },
+  {
+    "index": "thunderwave",
+    "name": "Thunderwave",
+    "url": "/api/spells/thunderwave",
+    "class": ""
+  },
+  {
+    "index": "time-stop",
+    "name": "Time Stop",
+    "url": "/api/spells/time-stop",
+    "class": ""
+  },
+  {
+    "index": "tiny-hut",
+    "name": "Tiny Hut",
+    "url": "/api/spells/tiny-hut",
+    "class": ""
+  },
+  {
+    "index": "tongues",
+    "name": "Tongues",
+    "url": "/api/spells/tongues",
+    "class": ""
+  },
+  {
+    "index": "transport-via-plants",
+    "name": "Transport via Plants",
+    "url": "/api/spells/transport-via-plants",
+    "class": ""
+  },
+  {
+    "index": "tree-stride",
+    "name": "Tree Stride",
+    "url": "/api/spells/tree-stride",
+    "class": ""
+  },
+  {
+    "index": "true-polymorph",
+    "name": "True Polymorph",
+    "url": "/api/spells/true-polymorph",
+    "class": ""
+  },
+  {
+    "index": "true-resurrection",
+    "name": "True Resurrection",
+    "url": "/api/spells/true-resurrection",
+    "class": ""
+  },
+  {
+    "index": "true-seeing",
+    "name": "True Seeing",
+    "url": "/api/spells/true-seeing",
+    "class": ""
+  },
+  {
+    "index": "true-strike",
+    "name": "True Strike",
+    "url": "/api/spells/true-strike",
+    "class": ""
+  },
+  {
+    "index": "unseen-servant",
+    "name": "Unseen Servant",
+    "url": "/api/spells/unseen-servant",
+    "class": ""
+  },
+  {
+    "index": "vampiric-touch",
+    "name": "Vampiric Touch",
+    "url": "/api/spells/vampiric-touch",
+    "class": ""
+  },
+  {
+    "index": "vicious-mockery",
+    "name": "Vicious Mockery",
+    "url": "/api/spells/vicious-mockery",
+    "class": ""
+  },
+  {
+    "index": "wall-of-fire",
+    "name": "Wall of Fire",
+    "url": "/api/spells/wall-of-fire",
+    "class": ""
+  },
+  {
+    "index": "wall-of-force",
+    "name": "Wall of Force",
+    "url": "/api/spells/wall-of-force",
+    "class": ""
+  },
+  {
+    "index": "wall-of-ice",
+    "name": "Wall of Ice",
+    "url": "/api/spells/wall-of-ice",
+    "class": ""
+  },
+  {
+    "index": "wall-of-stone",
+    "name": "Wall of Stone",
+    "url": "/api/spells/wall-of-stone",
+    "class": ""
+  },
+  {
+    "index": "wall-of-thorns",
+    "name": "Wall of Thorns",
+    "url": "/api/spells/wall-of-thorns",
+    "class": ""
+  },
+  {
+    "index": "warding-bond",
+    "name": "Warding Bond",
+    "url": "/api/spells/warding-bond",
+    "class": ""
+  },
+  {
+    "index": "water-breathing",
+    "name": "Water Breathing",
+    "url": "/api/spells/water-breathing",
+    "class": ""
+  },
+  {
+    "index": "water-walk",
+    "name": "Water Walk",
+    "url": "/api/spells/water-walk",
+    "class": ""
+  },
+  {
+    "index": "web",
+    "name": "Web",
+    "url": "/api/spells/web",
+    "class": ""
+  },
+  {
+    "index": "weird",
+    "name": "Weird",
+    "url": "/api/spells/weird",
+    "class": ""
+  },
+  {
+    "index": "wind-walk",
+    "name": "Wind Walk",
+    "url": "/api/spells/wind-walk",
+    "class": ""
+  },
+  {
+    "index": "wind-wall",
+    "name": "Wind Wall",
+    "url": "/api/spells/wind-wall",
+    "class": ""
+  },
+  {
+    "index": "wish",
+    "name": "Wish",
+    "url": "/api/spells/wish",
+    "class": ""
+  },
+  {
+    "index": "word-of-recall",
+    "name": "Word of Recall",
+    "url": "/api/spells/word-of-recall",
+    "class": ""
+  },
+  {
+    "index": "zone-of-truth",
+    "name": "Zone of Truth",
+    "url": "/api/spells/zone-of-truth",
+    "class": ""
+  }
+]

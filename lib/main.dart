@@ -8,6 +8,7 @@ void main() {
       title: 'DND',
       // Start the app with the "/" named route. In this case, the app starts
       // on the FirstScreen widget.
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
       ),

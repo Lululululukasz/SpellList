@@ -2,37 +2,37 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-//TODO WHY THE FUCK CANT I RENAME USERS
-class Users {
+//WHY THE FUCK CANT I RENAME USERS
+class SpellList {
   String index;
   String name;
   String url;
 
-  Users({
+  SpellList({
     required this.index,
     required this.name,
     required this.url,
   });
 
-  factory Users.fromJson(Map<String, dynamic> json) => Users(
+  factory SpellList.fromJson(Map<String, dynamic> json) => SpellList(
         index: json["index"],
         name: json["name"],
         url: json["url"],
       );
 }
 
-Future<List<Users>> getSpells() async {
+Future<List<SpellList>> getSpells() async {
   final response = await http.get(
-    Uri.parse('https://gultendier.github.io/apidata/spells'),
+    Uri.parse('https://gultendier.github.io/apidata/spells'), 
   );
   if (response.statusCode == 200) {
     var jsonResponse = json.decode(response.body);
-    List<Users> users = [];
+    List<SpellList> spells = [];
     for (var u in jsonResponse) {
-      Users user = Users(index: u['index'], name: u['name'], url: u['url']);
-      users.add(user);
+      SpellList spell = SpellList(index: u['index'], name: u['name'], url: u['url']);
+      spells.add(spell);
     }
-    return users;
+    return spells;
   } else {
     throw Exception('Failed to load post');
   }
