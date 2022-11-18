@@ -8,7 +8,7 @@ void main() {
       title: 'DND',
       // Start the app with the "/" named route. In this case, the app starts
       // on the FirstScreen widget.
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, //removes the debug banner
       theme: ThemeData(
         brightness: Brightness.dark,
       ),

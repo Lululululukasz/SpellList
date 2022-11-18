@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mob_project/api_call.dart';
 import 'dart:async';
 
-/* TODO find out how the fuck you can rename Users without killing code
-   TODO also create a function which filters the spells */
+/* TODO also create a function which filters the spells */
 
 class Spells extends StatefulWidget {
   const Spells({super.key});
@@ -32,11 +31,13 @@ class _SpellsState extends State<Spells> {
             future: spelldata,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
+                var filteredspells = snapshot.data!.where((element) => element.name == "Aid").toList(); //Filters for aid
                 return ListView.builder(
-                    itemCount: snapshot.data!.length,
+                    itemCount: filteredspells.length,
                     itemBuilder: (context, index) {
+
                       return ListTile(
-                        title: Text(snapshot.data![index].name),
+                        title: Text(filteredspells[index].name),
                         subtitle: Text(snapshot.data![index].index),
                         // trailing: Text(snapshot.data![index].url), not needed right now
                       );
