@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/api_call.dart';
 import 'dart:async';
-
-/* TODO also create a function which filters the spells */
+//following import is just used for a test will change later
+import 'package:mob_project/character_var.dart';
+import 'package:mob_project/sheet.dart';
 
 class Spells extends StatefulWidget {
   const Spells({super.key});
@@ -31,8 +32,9 @@ class _SpellsState extends State<Spells> {
             future: spelldata,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                var filteredSpell = snapshot.data!.where((element) => element.characterclass.contains("Wizard")).toList();
-                //filteredSpell change to element.class.contains(Variable) after api was edited
+                /* variable from character_var it filters for the class
+                 TODO make it that it filters classes from sheet */
+                var filteredSpell = snapshot.data!.where((element) => element.characterclass.contains(whichClass)).toList();
                 return ListView.builder(
                     itemCount: filteredSpell.length,
                     itemBuilder: (context, index) {
@@ -40,7 +42,9 @@ class _SpellsState extends State<Spells> {
                       return ListTile(
                         title: Text(filteredSpell[index].name),
                         subtitle: Text(filteredSpell[index].characterclass),
-                        // trailing: Text(snapshot.data![index].url), not needed right now
+                        onTap: (){
+                          Navigator.pop(context);
+                          }, // TODO click on spell to return, change later
                       );
                     });
               } else if (snapshot.hasError) {

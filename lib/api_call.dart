@@ -24,8 +24,9 @@ class SpellList {
 }
 
 Future<List<SpellList>> getSpells() async {
+  var differentcall = "spells"; //TODO as a example will change
   final response = await http.get(
-    Uri.parse('https://gultendier.github.io/apidata/spells'), 
+    Uri.parse('https://gultendier.github.io/apidata/$differentcall'),
   );
   if (response.statusCode == 200) {
     var jsonResponse = json.decode(response.body);
