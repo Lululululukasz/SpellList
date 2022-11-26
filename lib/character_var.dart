@@ -10,6 +10,6 @@ String rogue = "Rogue";
 String sorcerer = "Sorcerer";
 String warlock = "Warlock";
 String wizard = "Wizard";
-String whichClass = barbarian;
+String whichClass = "";
 
 //fuck the other classes player handbook rules.

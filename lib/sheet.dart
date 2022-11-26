@@ -14,8 +14,10 @@ class Sheet extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            Container(
+            const SizedBox(
               height: kToolbarHeight,
+             // child: Text("Choose your Class:"), add a text but its ugly
+
             ),
             ClassButton(classChosen: barbarian),
             ClassButton(classChosen: bard),
@@ -46,17 +48,21 @@ class ClassButton extends StatefulWidget {
 class _ClassButtonState extends State<ClassButton> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: .0, right: 8.0),
-      child: ElevatedButton(
+
+      return TextButton(
         // Within the `FirstScreen` widget
+        style: TextButton.styleFrom(
+          foregroundColor: Colors.white,
+          alignment: Alignment.centerLeft,
+
+        ),
         onPressed: () {
           // Navigate to the second screen using a named route.
           whichClass = widget.classChosen;
           Navigator.pushNamed(context, '/spells');
         },
         child: Text(widget.classChosen),
-      ),
-    );
+      );
+
   }
 }
