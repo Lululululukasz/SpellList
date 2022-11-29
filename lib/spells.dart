@@ -38,12 +38,15 @@ class _SpellsState extends State<Spells> {
                     itemCount: filteredSpell.length,
                     itemBuilder: (context, index) {
 
-                      return ListTile(
+                      return ExpansionTile(
                         title: Text(filteredSpell[index].name),
                         subtitle: Text(filteredSpell[index].characterclass),
-                        onTap: (){
-                          Navigator.pop(context);
-                          }, // TODO click on spell to return, change later
+
+                        children: const <Widget>[
+                          ListTile(
+                            title: Text("TEST"),
+                          )
+                        ],
                       );
                     });
               } else if (snapshot.hasError) {
