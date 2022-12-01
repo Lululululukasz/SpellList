@@ -19,16 +19,16 @@ class SpellList {
   });
 
   factory SpellList.fromJson(Map<String, dynamic> json) => SpellList(
-        index: json["index"],
-        name: json["name"],
-        url: json["url"],
-        characterclass: json["characterclass"],
-        desc: json["desc"],
-      );
+    index: json["index"],
+    name: json["name"],
+    url: json["url"],
+    characterclass: json["characterclass"],
+    desc: json["desc"],
+  );
 }
 
 Future<List<SpellList>> getSpells() async {
- /* var differentcall = "spells"; and $differentcall after api link where "spells" is
+  /* var differentcall = "spells"; and $differentcall after api link where "spells" is
  TODO as a example will change */
   final response = await http.get(
     Uri.parse('https://gultendier.github.io/apidata/spells'),

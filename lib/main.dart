@@ -14,12 +14,17 @@ async {
   await Firebase.initializeApp();
   runApp(
       MaterialApp(
+        debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+          brightness: Brightness.dark,
+
+        ),
       routes: {
 // When navigating to the "/" route, build the FirstScreen widget
        '/login': (context) => MyLogin(),
 // When navigating to the "/second" route, build the SecondScreen widget.
       '/sheet': (context) =>  const Sheet(),
-      '/spells': (context) => const SpellList(),
+      '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
       },
       home: Scaffold(
