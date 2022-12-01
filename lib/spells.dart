@@ -42,9 +42,9 @@ class _SpellsState extends State<Spells> {
                         title: Text(filteredSpell[index].name),
                         subtitle: Text(filteredSpell[index].characterclass),
 
-                        children: const <Widget>[
+                        children: <Widget>[
                           ListTile(
-                            title: Text("TEST"),
+                            title: Text(filteredSpell[index].desc),
                           )
                         ],
                       );

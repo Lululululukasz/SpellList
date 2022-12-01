@@ -3,1914 +3,2548 @@
     "index": "acid-arrow",
     "name": "Acid Arrow",
     "url": "/api/spells/acid-arrow",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
   },
   {
     "index": "acid-splash",
     "name": "Acid Splash",
     "url": "/api/spells/acid-splash",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
   },
   {
     "index": "aid",
     "name": "Aid",
     "url": "/api/spells/aid",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
   },
   {
     "index": "alarm",
     "name": "Alarm",
     "url": "/api/spells/alarm",
-    "characterclass": "Ranger, Wizard"
+    "characterclass": "Ranger, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "alter-self",
     "name": "Alter Self",
     "url": "/api/spells/alter-self",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "animal-friendship",
     "name": "Animal Friendship",
     "url": "/api/spells/animal-friendship",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "animal-messenger",
     "name": "Animal Messenger",
     "url": "/api/spells/animal-messenger",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "animal-shapes",
     "name": "Animal Shapes",
     "url": "/api/spells/animal-shapes",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
   },
   {
     "index": "animate-dead",
     "name": "Animate Dead",
     "url": "/api/spells/animate-dead",
-    "characterclass": "Cleric, Wizard"
+    "characterclass": "Cleric, Wizard",
+    "desc": "Test."
   },
   {
     "index": "animate-objects",
     "name": "Animate Objects",
     "url": "/api/spells/animate-objects",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "antilife-shell",
     "name": "Antilife Shell",
     "url": "/api/spells/antilife-shell",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "antimagic-field",
     "name": "Antimagic Field",
     "url": "/api/spells/antimagic-field",
-    "characterclass": "Cleric, Wizard"
+    "characterclass": "Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "antipathy-sympathy",
     "name": "Antipathy/Sympathy",
     "url": "/api/spells/antipathy-sympathy",
-    "characterclass": "Druid, Wizard"
+    "characterclass": "Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "arcane-eye",
     "name": "Arcane Eye",
     "url": "/api/spells/arcane-eye",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "arcane-hand",
     "name": "Arcane Hand",
     "url": "/api/spells/arcane-hand",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "arcane-lock",
     "name": "Arcane Lock",
     "url": "/api/spells/arcane-lock",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "arcane-sword",
     "name": "Arcane Sword",
     "url": "/api/spells/arcane-sword",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "arcanists-magic-aura",
     "name": "Arcanist's Magic Aura",
     "url": "/api/spells/arcanists-magic-aura",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "astral-projection",
     "name": "Astral Projection",
     "url": "/api/spells/astral-projection",
-    "characterclass": "Cleric, Warlock, Wizard"
+    "characterclass": "Cleric, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "augury",
     "name": "Augury",
     "url": "/api/spells/augury",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "awaken",
     "name": "Awaken",
     "url": "/api/spells/awaken",
-    "characterclass": "Bard, Druid"
+    "characterclass": "Bard, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "bane",
     "name": "Bane",
     "url": "/api/spells/bane",
-    "characterclass": "Bard, Cleric"
+    "characterclass": "Bard, Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "banishment",
     "name": "Banishment",
     "url": "/api/spells/banishment",
-    "characterclass": "Paladin, Cleric, Sorcerer, Warlock, Wizard"
+    "characterclass": "Paladin, Cleric, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "barkskin",
     "name": "Barkskin",
     "url": "/api/spells/barkskin",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "beacon-of-hope",
     "name": "Beacon of Hope",
     "url": "/api/spells/beacon-of-hope",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "bestow-curse",
     "name": "Bestow Curse",
     "url": "/api/spells/bestow-curse",
-    "characterclass": "Bard, Cleric, Wizard"
+    "characterclass": "Bard, Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "black-tentacles",
     "name": "Black Tentacles",
     "url": "/api/spells/black-tentacles",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "blade-barrier",
     "name": "Blade Barrier",
     "url": "/api/spells/blade-barrier",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "bless",
     "name": "Bless",
     "url": "/api/spells/bless",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "blight",
     "name": "Blight",
     "url": "/api/spells/blight",
-    "characterclass": "Druid, Sorcerer, Warlock, Wizard"
+    "characterclass": "Druid, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "blindness-deafness",
     "name": "Blindness/Deafness",
     "url": "/api/spells/blindness-deafness",
-    "characterclass": "Bard, Cleric, Sorcerer, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "blink",
     "name": "Blink",
     "url": "/api/spells/blink",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "blur",
     "name": "Blur",
     "url": "/api/spells/blur",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "branding-smite",
     "name": "Branding Smite",
     "url": "/api/spells/branding-smite",
-    "characterclass": "Paladin"
+    "characterclass": "Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "burning-hands",
     "name": "Burning Hands",
     "url": "/api/spells/burning-hands",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "call-lightning",
     "name": "Call Lightning",
     "url": "/api/spells/call-lightning",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "calm-emotions",
     "name": "Calm Emotions",
     "url": "/api/spells/calm-emotions",
-    "characterclass": "Bard, Cleric"
+    "characterclass": "Bard, Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "chain-lightning",
     "name": "Chain Lightning",
     "url": "/api/spells/chain-lightning",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "charm-person",
     "name": "Charm Person",
     "url": "/api/spells/charm-person",
-    "characterclass": "Bard, Druid, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Druid, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "chill-touch",
     "name": "Chill Touch",
     "url": "/api/spells/chill-touch",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "circle-of-death",
     "name": "Circle of Death",
     "url": "/api/spells/circle-of-death",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "clairvoyance",
     "name": "Clairvoyance",
     "url": "/api/spells/clairvoyance",
-    "characterclass": "Bard, Cleric, Sorcerer, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "clone",
     "name": "Clone",
     "url": "/api/spells/clone",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "cloudkill",
     "name": "Cloudkill",
     "url": "/api/spells/cloudkill",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "color-spray",
     "name": "Color Spray",
     "url": "/api/spells/color-spray",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "command",
     "name": "Command",
     "url": "/api/spells/command",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "commune",
     "name": "Commune",
     "url": "/api/spells/commune",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "commune-with-nature",
     "name": "Commune With Nature",
     "url": "/api/spells/commune-with-nature",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "comprehend-languages",
     "name": "Comprehend Languages",
     "url": "/api/spells/comprehend-languages",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "compulsion",
     "name": "Compulsion",
     "url": "/api/spells/compulsion",
-    "characterclass": "Bard"
+    "characterclass": "Bard",
+    "desc": "Test."
+
   },
   {
     "index": "cone-of-cold",
     "name": "Cone of Cold",
     "url": "/api/spells/cone-of-cold",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "confusion",
     "name": "Confusion",
     "url": "/api/spells/confusion",
-    "characterclass": "Bard, Druid, Sorcerer, Wizard"
+    "characterclass": "Bard, Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-animals",
     "name": "Conjure Animals",
     "url": "/api/spells/conjure-animals",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-celestial",
     "name": "Conjure Celestial",
     "url": "/api/spells/conjure-celestial",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-elemental",
     "name": "Conjure Elemental",
     "url": "/api/spells/conjure-elemental",
-    "characterclass": "Druid, Wizard"
+    "characterclass": "Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-fey",
     "name": "Conjure Fey",
     "url": "/api/spells/conjure-fey",
-    "characterclass": "Druid, Warlock"
+    "characterclass": "Druid, Warlock",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-minor-elementals",
     "name": "Conjure Minor Elementals",
     "url": "/api/spells/conjure-minor-elementals",
-    "characterclass": "Druid, Wizard"
+    "characterclass": "Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "conjure-woodland-beings",
     "name": "Conjure Woodland Beings",
     "url": "/api/spells/conjure-woodland-beings",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "contact-other-plane",
     "name": "Contact Other Plane",
     "url": "/api/spells/contact-other-plane",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "contagion",
     "name": "Contagion",
     "url": "/api/spells/contagion",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "contingency",
     "name": "Contingency",
     "url": "/api/spells/contingency",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "continual-flame",
     "name": "Continual Flame",
     "url": "/api/spells/continual-flame",
-    "characterclass": "Cleric, Wizard"
+    "characterclass": "Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "control-water",
     "name": "Control Water",
     "url": "/api/spells/control-water",
-    "characterclass": "Cleric, Druid, Wizard"
+    "characterclass": "Cleric, Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "control-weather",
     "name": "Control Weather",
     "url": "/api/spells/control-weather",
-    "characterclass": "Cleric, Druid, Wizard"
+    "characterclass": "Cleric, Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "counterspell",
     "name": "Counterspell",
     "url": "/api/spells/counterspell",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "create-food-and-water",
     "name": "Create Food and Water",
     "url": "/api/spells/create-food-and-water",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "create-or-destroy-water",
     "name": "Create or Destroy Water",
     "url": "/api/spells/create-or-destroy-water",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "create-undead",
     "name": "Create Undead",
     "url": "/api/spells/create-undead",
-    "characterclass": "Cleric, Warlock, Wizard"
+    "characterclass": "Cleric, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "creation",
     "name": "Creation",
     "url": "/api/spells/creation",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "cure-wounds",
     "name": "Cure Wounds",
     "url": "/api/spells/cure-wounds",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "dancing-lights",
     "name": "Dancing Lights",
     "url": "/api/spells/dancing-lights",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "darkness",
     "name": "Darkness",
     "url": "/api/spells/darkness",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "darkvision",
     "name": "Darkvision",
     "url": "/api/spells/darkvision",
-    "characterclass": "Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "daylight",
     "name": "Daylight",
     "url": "/api/spells/daylight",
-    "characterclass": "Cleric, Druid, Paladin, Ranger, Sorcerer"
+    "characterclass": "Cleric, Druid, Paladin, Ranger, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "death-ward",
     "name": "Death Ward",
     "url": "/api/spells/death-ward",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "delayed-blast-fireball",
     "name": "Delayed Blast Fireball",
     "url": "/api/spells/delayed-blast-fireball",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "demiplane",
     "name": "Demiplane",
     "url": "/api/spells/demiplane",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "detect-evil-and-good",
     "name": "Detect Evil and Good",
     "url": "/api/spells/detect-evil-and-good",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "detect-magic",
     "name": "Detect Magic",
     "url": "/api/spells/detect-magic",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "detect-poison-and-disease",
     "name": "Detect Poison and Disease",
     "url": "/api/spells/detect-poison-and-disease",
-    "characterclass": "Cleric, Druid, Paladin, Ranger"
+    "characterclass": "Cleric, Druid, Paladin, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "detect-thoughts",
     "name": "Detect Thoughts",
     "url": "/api/spells/detect-thoughts",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "dimension-door",
     "name": "Dimension Door",
     "url": "/api/spells/dimension-door",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "disguise-self",
     "name": "Disguise Self",
     "url": "/api/spells/disguise-self",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "disintegrate",
     "name": "Disintegrate",
     "url": "/api/spells/disintegrate",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "dispel-evil-and-good",
     "name": "Dispel Evil and Good",
     "url": "/api/spells/dispel-evil-and-good",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "dispel-magic",
     "name": "Dispel Magic",
     "url": "/api/spells/dispel-magic",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "divination",
     "name": "Divination",
     "url": "/api/spells/divination",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "divine-favor",
     "name": "Divine Favor",
     "url": "/api/spells/divine-favor",
-    "characterclass": "Paladin"
+    "characterclass": "Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "divine-word",
     "name": "Divine Word",
     "url": "/api/spells/divine-word",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "dominate-beast",
     "name": "Dominate Beast",
     "url": "/api/spells/dominate-beast",
-    "characterclass": "Druid, Sorcerer"
+    "characterclass": "Druid, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "dominate-monster",
     "name": "Dominate Monster",
     "url": "/api/spells/dominate-monster",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "dominate-person",
     "name": "Dominate Person",
     "url": "/api/spells/dominate-person",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "dream",
     "name": "Dream",
     "url": "/api/spells/dream",
-    "characterclass": "Bard, Druid, Warlock, Wizard"
+    "characterclass": "Bard, Druid, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "druidcraft",
     "name": "Druidcraft",
     "url": "/api/spells/druidcraft",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "earthquake",
     "name": "Earthquake",
     "url": "/api/spells/earthquake",
-    "characterclass": "Cleric, Druid, Sorcerer"
+    "characterclass": "Cleric, Druid, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "eldritch-blast",
     "name": "Eldritch Blast",
     "url": "/api/spells/eldritch-blast",
-    "characterclass": "Warlock"
+    "characterclass": "Warlock",
+    "desc": "Test."
+
   },
   {
     "index": "enhance-ability",
     "name": "Enhance Ability",
     "url": "/api/spells/enhance-ability",
-    "characterclass": "Bard, Cleric, Druid, Sorcerer"
+    "characterclass": "Bard, Cleric, Druid, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "enlarge-reduce",
     "name": "Enlarge/Reduce",
     "url": "/api/spells/enlarge-reduce",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "entangle",
     "name": "Entangle",
     "url": "/api/spells/entangle",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "enthrall",
     "name": "Enthrall",
     "url": "/api/spells/enthrall",
-    "characterclass": "Bard, Warlock"
+    "characterclass": "Bard, Warlock",
+    "desc": "Test."
+
   },
   {
     "index": "etherealness",
     "name": "Etherealness",
     "url": "/api/spells/etherealness",
-    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "expeditious-retreat",
     "name": "Expeditious Retreat",
     "url": "/api/spells/expeditious-retreat",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "eyebite",
     "name": "Eyebite",
     "url": "/api/spells/eyebite",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fabricate",
     "name": "Fabricate",
     "url": "/api/spells/fabricate",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "faerie-fire",
     "name": "Faerie Fire",
     "url": "/api/spells/faerie-fire",
-    "characterclass": "Bard, Druid"
+    "characterclass": "Bard, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "faithful-hound",
     "name": "Faithful Hound",
     "url": "/api/spells/faithful-hound",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "false-life",
     "name": "False Life",
     "url": "/api/spells/false-life",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fear",
     "name": "Fear",
     "url": "/api/spells/fear",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "feather-fall",
     "name": "Feather Fall",
     "url": "/api/spells/feather-fall",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "feeblemind",
     "name": "Feeblemind",
     "url": "/api/spells/feeblemind",
-    "characterclass": "Bard, Druid, Warlock, Wizard"
+    "characterclass": "Bard, Druid, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "find-familiar",
     "name": "Find Familiar",
     "url": "/api/spells/find-familiar",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "find-steed",
     "name": "Find Steed",
     "url": "/api/spells/find-steed",
-    "characterclass": "Paladin"
+    "characterclass": "Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "find-the-path",
     "name": "Find the Path",
     "url": "/api/spells/find-the-path",
-    "characterclass": "Bard, Cleric, Druid"
+    "characterclass": "Bard, Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "find-traps",
     "name": "Find Traps",
     "url": "/api/spells/find-traps",
-    "characterclass": "Cleric, Druid, Ranger"
+    "characterclass": "Cleric, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "finger-of-death",
     "name": "Finger of Death",
     "url": "/api/spells/finger-of-death",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fire-bolt",
     "name": "Fire Bolt",
     "url": "/api/spells/fire-bolt",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fire-shield",
     "name": "Fire Shield",
     "url": "/api/spells/fire-shield",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fire-storm",
     "name": "Fire Storm",
     "url": "/api/spells/fire-storm",
-    "characterclass": "Cleric, Druid, Sorcerer"
+    "characterclass": "Cleric, Druid, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "fireball",
     "name": "Fireball",
     "url": "/api/spells/fireball",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "flame-blade",
     "name": "Flame Blade",
     "url": "/api/spells/flame-blade",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "flame-strike",
     "name": "Flame Strike",
     "url": "/api/spells/flame-strike",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "flaming-sphere",
     "name": "Flaming Sphere",
     "url": "/api/spells/flaming-sphere",
-    "characterclass": "Druid, Wizard"
+    "characterclass": "Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "flesh-to-stone",
     "name": "Flesh to Stone",
     "url": "/api/spells/flesh-to-stone",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "floating-disk",
     "name": "Floating Disk",
     "url": "/api/spells/floating-disk",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fly",
     "name": "Fly",
     "url": "/api/spells/fly",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "fog-cloud",
     "name": "Fog Cloud",
     "url": "/api/spells/fog-cloud",
-    "characterclass": "Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "forbiddance",
     "name": "Forbiddance",
     "url": "/api/spells/forbiddance",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "forcecage",
     "name": "Forcecage",
     "url": "/api/spells/forcecage",
-    "characterclass": "Bard, Warlock, Wizard"
+    "characterclass": "Bard, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "foresight",
     "name": "Foresight",
     "url": "/api/spells/foresight",
-    "characterclass": "Bard, Druid, Warlock, Wizard"
+    "characterclass": "Bard, Druid, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "freedom-of-movement",
     "name": "Freedom of Movement",
     "url": "/api/spells/freedom-of-movement",
-    "characterclass": "Bard, Cleric, Druid, Ranger"
+    "characterclass": "Bard, Cleric, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "freezing-sphere",
     "name": "Freezing Sphere",
     "url": "/api/spells/freezing-sphere",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "gaseous-form",
     "name": "Gaseous Form",
     "url": "/api/spells/gaseous-form",
-    "characterclass": "Sorcerer, Warlock, Wizard "
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "gate",
     "name": "Gate",
     "url": "/api/spells/gate",
-    "characterclass": "Cleric, Sorcerer, Wizard"
+    "characterclass": "Cleric, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "geas",
     "name": "Geas",
     "url": "/api/spells/geas",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "gentle-repose",
     "name": "Gentle Repose",
     "url": "/api/spells/gentle-repose",
-    "characterclass": "Cleric, Wizard"
+    "characterclass": "Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "giant-insect",
     "name": "Giant Insect",
     "url": "/api/spells/giant-insect",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "glibness",
     "name": "Glibness",
     "url": "/api/spells/glibness",
-    "characterclass": "Bard, Warlock"
+    "characterclass": "Bard, Warlock",
+    "desc": "Test."
+
   },
   {
     "index": "globe-of-invulnerability",
     "name": "Globe of Invulnerability",
     "url": "/api/spells/globe-of-invulnerability",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "glyph-of-warding",
     "name": "Glyph of Warding",
     "url": "/api/spells/glyph-of-warding",
-    "characterclass": "Bard, Cleric, Wizard"
+    "characterclass": "Bard, Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "goodberry",
     "name": "Goodberry",
     "url": "/api/spells/goodberry",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "grease",
     "name": "Grease",
     "url": "/api/spells/grease",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "greater-invisibility",
     "name": "Greater Invisibility",
     "url": "/api/spells/greater-invisibility",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "greater-restoration",
     "name": "Greater Restoration",
     "url": "/api/spells/greater-restoration",
-    "characterclass": "Bard, Cleric, Druid"
+    "characterclass": "Bard, Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "guardian-of-faith",
     "name": "Guardian of Faith",
     "url": "/api/spells/guardian-of-faith",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "guards-and-wards",
     "name": "Guards and Wards",
     "url": "/api/spells/guards-and-wards",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "guidance",
     "name": "Guidance",
     "url": "/api/spells/guidance",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "guiding-bolt",
     "name": "Guiding Bolt",
     "url": "/api/spells/guiding-bolt",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "gust-of-wind",
     "name": "Gust of Wind",
     "url": "/api/spells/gust-of-wind",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "hallow",
     "name": "Hallow",
     "url": "/api/spells/hallow",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "hallucinatory-terrain",
     "name": "Hallucinatory Terrain",
     "url": "/api/spells/hallucinatory-terrain",
-    "characterclass": "Bard, Druid, Warlock, Wizard"
+    "characterclass": "Bard, Druid, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "harm",
     "name": "Harm",
     "url": "/api/spells/harm",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "haste",
     "name": "Haste",
     "url": "/api/spells/haste",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "heal",
     "name": "Heal",
     "url": "/api/spells/heal",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "healing-word",
     "name": "Healing Word",
     "url": "/api/spells/healing-word",
-    "characterclass": "Bard, Cleric, Druid"
+    "characterclass": "Bard, Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "heat-metal",
     "name": "Heat Metal",
     "url": "/api/spells/heat-metal",
-    "characterclass": "Bard, Druid"
+    "characterclass": "Bard, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "hellish-rebuke",
     "name": "Hellish Rebuke",
     "url": "/api/spells/hellish-rebuke",
-    "characterclass": "Warlock"
+    "characterclass": "Warlock",
+    "desc": "Test."
+
   },
   {
     "index": "heroes-feast",
     "name": "Heroes' Feast",
     "url": "/api/spells/heroes-feast",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "heroism",
     "name": "Heroism",
     "url": "/api/spells/heroism",
-    "characterclass": "Bard, Paladin"
+    "characterclass": "Bard, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "hideous-laughter",
     "name": "Hideous Laughter",
     "url": "/api/spells/hideous-laughter",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "hold-monster",
     "name": "Hold Monster",
     "url": "/api/spells/hold-monster",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "hold-person",
     "name": "Hold Person",
     "url": "/api/spells/hold-person",
-    "characterclass": "Bard, Cleric, Druid, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "holy-aura",
     "name": "Holy Aura",
     "url": "/api/spells/holy-aura",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "hunters-mark",
     "name": "Hunter's Mark",
     "url": "/api/spells/hunters-mark",
-    "characterclass": "Ranger"
+    "characterclass": "Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "hypnotic-pattern",
     "name": "Hypnotic Pattern",
     "url": "/api/spells/hypnotic-pattern",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "ice-storm",
     "name": "Ice Storm",
     "url": "/api/spells/ice-storm",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "identify",
     "name": "Identify",
     "url": "/api/spells/identify",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "illusory-script",
     "name": "Illusory Script",
     "url": "/api/spells/illusory-script",
-    "characterclass": "Bard, Warlock, Wizard"
+    "characterclass": "Bard, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "imprisonment",
     "name": "Imprisonment",
     "url": "/api/spells/imprisonment",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "incendiary-cloud",
     "name": "Incendiary Cloud",
     "url": "/api/spells/incendiary-cloud",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "inflict-wounds",
     "name": "Inflict Wounds",
     "url": "/api/spells/inflict-wounds",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "insect-plague",
     "name": "Insect Plague",
     "url": "/api/spells/insect-plague",
-    "characterclass": "Cleric, Druid, Sorcerer"
+    "characterclass": "Cleric, Druid, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "instant-summons",
     "name": "Instant Summons",
     "url": "/api/spells/instant-summons",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "invisibility",
     "name": "Invisibility",
     "url": "/api/spells/invisibility",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "irresistible-dance",
     "name": "Irresistible Dance",
     "url": "/api/spells/irresistible-dance",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "jump",
     "name": "Jump",
     "url": "/api/spells/jump",
-    "characterclass": "Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "knock",
     "name": "Knock",
     "url": "/api/spells/knock",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "legend-lore",
     "name": "Legend Lore",
     "url": "/api/spells/legend-lore",
-    "characterclass": "Bard, Cleric, Wizard"
+    "characterclass": "Bard, Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "lesser-restoration",
     "name": "Lesser Restoration",
     "url": "/api/spells/lesser-restoration",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "levitate",
     "name": "Levitate",
     "url": "/api/spells/levitate",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "light",
     "name": "Light",
     "url": "/api/spells/light",
-    "characterclass": "Bard, Cleric, Sorcerer, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "lightning-bolt",
     "name": "Lightning Bolt",
     "url": "/api/spells/lightning-bolt",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "locate-animals-or-plants",
     "name": "Locate Animals or Plants",
     "url": "/api/spells/locate-animals-or-plants",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "locate-creature",
     "name": "Locate Creature",
     "url": "/api/spells/locate-creature",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "locate-object",
     "name": "Locate Object",
     "url": "/api/spells/locate-object",
-    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Paladin, Ranger, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "longstrider",
     "name": "Longstrider",
     "url": "/api/spells/longstrider",
-    "characterclass": "Bard, Druid, Ranger, Wizard"
+    "characterclass": "Bard, Druid, Ranger, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mage-armor",
     "name": "Mage Armor",
     "url": "/api/spells/mage-armor",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mage-hand",
     "name": "Mage Hand",
     "url": "/api/spells/mage-hand",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magic-circle",
     "name": "Magic Circle",
     "url": "/api/spells/magic-circle",
-    "characterclass": "Cleric, Paladin, Warlock, Wizard"
+    "characterclass": "Cleric, Paladin, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magic-jar",
     "name": "Magic Jar",
     "url": "/api/spells/magic-jar",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magic-missile",
     "name": "Magic Missile",
     "url": "/api/spells/magic-missile",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magic-mouth",
     "name": "Magic Mouth",
     "url": "/api/spells/magic-mouth",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magic-weapon",
     "name": "Magic Weapon",
     "url": "/api/spells/magic-weapon",
-    "characterclass": "Paladin, Wizard"
+    "characterclass": "Paladin, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "magnificent-mansion",
     "name": "Magnificent Mansion",
     "url": "/api/spells/magnificent-mansion",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "major-image",
     "name": "Major Image",
     "url": "/api/spells/major-image",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mass-cure-wounds",
     "name": "Mass Cure Wounds",
     "url": "/api/spells/mass-cure-wounds",
-    "characterclass": "Bard, Cleric, Druid"
+    "characterclass": "Bard, Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "mass-heal",
     "name": "Mass Heal",
     "url": "/api/spells/mass-heal",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "mass-healing-word",
     "name": "Mass Healing Word",
     "url": "/api/spells/mass-healing-word",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "mass-suggestion",
     "name": "Mass Suggestion",
     "url": "/api/spells/mass-suggestion",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "maze",
     "name": "Maze",
     "url": "/api/spells/maze",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "meld-into-stone",
     "name": "Meld Into Stone",
     "url": "/api/spells/meld-into-stone",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "mending",
     "name": "Mending",
     "url": "/api/spells/mending",
-    "characterclass": "Bard, Cleric, Druid, Sorcerer, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "message",
     "name": "Message",
     "url": "/api/spells/message",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "meteor-swarm",
     "name": "Meteor Swarm",
     "url": "/api/spells/meteor-swarm",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mind-blank",
     "name": "Mind Blank",
     "url": "/api/spells/mind-blank",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "minor-illusion",
     "name": "Minor Illusion",
     "url": "/api/spells/minor-illusion",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mirage-arcane",
     "name": "Mirage Arcane",
     "url": "/api/spells/mirage-arcane",
-    "characterclass": "Bard, Druid, Wizard"
+    "characterclass": "Bard, Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mirror-image",
     "name": "Mirror Image",
     "url": "/api/spells/mirror-image",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "mislead",
     "name": "Mislead",
     "url": "/api/spells/mislead",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "misty-step",
     "name": "Misty Step",
     "url": "/api/spells/misty-step",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "modify-memory",
     "name": "Modify Memory",
     "url": "/api/spells/modify-memory",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "moonbeam",
     "name": "Moonbeam",
     "url": "/api/spells/moonbeam",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "move-earth",
     "name": "Move Earth",
     "url": "/api/spells/move-earth",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "nondetection",
     "name": "Nondetection",
     "url": "/api/spells/nondetection",
-    "characterclass": "Bard, Ranger, Wizard"
+    "characterclass": "Bard, Ranger, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "pass-without-trace",
     "name": "Pass Without Trace",
     "url": "/api/spells/pass-without-trace",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "passwall",
     "name": "Passwall",
     "url": "/api/spells/passwall",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "phantasmal-killer",
     "name": "Phantasmal Killer",
     "url": "/api/spells/phantasmal-killer",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "phantom-steed",
     "name": "Phantom Steed",
     "url": "/api/spells/phantom-steed",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "planar-ally",
     "name": "Planar Ally",
     "url": "/api/spells/planar-ally",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "planar-binding",
     "name": "Planar Binding",
     "url": "/api/spells/planar-binding",
-    "characterclass": "Bard, Cleric, Druid, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "plane-shift",
     "name": "Plane Shift",
     "url": "/api/spells/plane-shift",
-    "characterclass": "Cleric, Sorcerer, Warlock, Wizard, Druid"
+    "characterclass": "Cleric, Sorcerer, Warlock, Wizard, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "plant-growth",
     "name": "Plant Growth",
     "url": "/api/spells/plant-growth",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "poison-spray",
     "name": "Poison Spray",
     "url": "/api/spells/poison-spray",
-    "characterclass": "Druid, Sorcerer, Warlock, Wizard"
+    "characterclass": "Druid, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "polymorph",
     "name": "Polymorph",
     "url": "/api/spells/polymorph",
-    "characterclass": "Bard, Druid, Sorcerer, Wizard"
+    "characterclass": "Bard, Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "power-word-kill",
     "name": "Power Word Kill",
     "url": "/api/spells/power-word-kill",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "power-word-stun",
     "name": "Power Word Stun",
     "url": "/api/spells/power-word-stun",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "prayer-of-healing",
     "name": "Prayer of Healing",
     "url": "/api/spells/prayer-of-healing",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "prestidigitation",
     "name": "Prestidigitation",
     "url": "/api/spells/prestidigitation",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "prismatic-spray",
     "name": "Prismatic Spray",
     "url": "/api/spells/prismatic-spray",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "prismatic-wall",
     "name": "Prismatic Wall",
     "url": "/api/spells/prismatic-wall",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "private-sanctum",
     "name": "Private Sanctum",
     "url": "/api/spells/private-sanctum",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "produce-flame",
     "name": "Produce Flame",
     "url": "/api/spells/produce-flame",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "programmed-illusion",
     "name": "Programmed Illusion",
     "url": "/api/spells/programmed-illusion",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "project-image",
     "name": "Project Image",
     "url": "/api/spells/project-image",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "protection-from-energy",
     "name": "Protection From Energy",
     "url": "/api/spells/protection-from-energy",
-    "characterclass": "Cleric, Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Cleric, Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "protection-from-evil-and-good",
     "name": "Protection from Evil and Good",
     "url": "/api/spells/protection-from-evil-and-good",
-    "characterclass": "Cleric, Paladin, Warlock, Wizard"
+    "characterclass": "Cleric, Paladin, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "protection-from-poison",
     "name": "Protection from Poison",
     "url": "/api/spells/protection-from-poison",
-    "characterclass": "Cleric, Druid, Paladin, Ranger"
+    "characterclass": "Cleric, Druid, Paladin, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "purify-food-and-drink",
     "name": "Purify Food and Drink",
     "url": "/api/spells/purify-food-and-drink",
-    "characterclass": "Cleric, Druid, Paladin"
+    "characterclass": "Cleric, Druid, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "raise-dead",
     "name": "Raise Dead",
     "url": "/api/spells/raise-dead",
-    "characterclass": "Bard, Cleric, Paladin"
+    "characterclass": "Bard, Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "ray-of-enfeeblement",
     "name": "Ray of Enfeeblement",
     "url": "/api/spells/ray-of-enfeeblement",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "ray-of-frost",
     "name": "Ray of Frost",
     "url": "/api/spells/ray-of-frost",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "regenerate",
     "name": "Regenerate",
     "url": "/api/spells/regenerate",
-    "characterclass": "Bard, Cleric, Druid"
+    "characterclass": "Bard, Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "reincarnate",
     "name": "Reincarnate",
     "url": "/api/spells/reincarnate",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "remove-curse",
     "name": "Remove Curse",
     "url": "/api/spells/remove-curse",
-    "characterclass": "Cleric, Paladin, Warlock, Wizard"
+    "characterclass": "Cleric, Paladin, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "resilient-sphere",
     "name": "Resilient Sphere",
     "url": "/api/spells/resilient-sphere",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "resistance",
     "name": "Resistance",
     "url": "/api/spells/resistance",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "resurrection",
     "name": "Resurrection",
     "url": "/api/spells/resurrection",
-    "characterclass": "Bard, Cleric"
+    "characterclass": "Bard, Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "reverse-gravity",
     "name": "Reverse Gravity",
     "url": "/api/spells/reverse-gravity",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "revivify",
     "name": "Revivify",
     "url": "/api/spells/revivify",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "rope-trick",
     "name": "Rope Trick",
     "url": "/api/spells/rope-trick",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sacred-flame",
     "name": "Sacred Flame",
     "url": "/api/spells/sacred-flame",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "sanctuary",
     "name": "Sanctuary",
     "url": "/api/spells/sanctuary",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "scorching-ray",
     "name": "Scorching Ray",
     "url": "/api/spells/scorching-ray",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "scrying",
     "name": "Scrying",
     "url": "/api/spells/scrying",
-    "characterclass": "Bard, Cleric, Druid, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Druid, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "secret-chest",
     "name": "Secret Chest",
     "url": "/api/spells/secret-chest",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "see-invisibility",
     "name": "See Invisibility",
     "url": "/api/spells/see-invisibility",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "seeming",
     "name": "Seeming",
     "url": "/api/spells/seeming",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sending",
     "name": "Sending",
     "url": "/api/spells/sending",
-    "characterclass": "Bard, Cleric, Wizard"
+    "characterclass": "Bard, Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sequester",
     "name": "Sequester",
     "url": "/api/spells/sequester",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "shapechange",
     "name": "Shapechange",
     "url": "/api/spells/shapechange",
-    "characterclass": "Druid, Wizard"
+    "characterclass": "Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "shatter",
     "name": "Shatter",
     "url": "/api/spells/shatter",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "shield",
     "name": "Shield",
     "url": "/api/spells/shield",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "shield-of-faith",
     "name": "Shield of Faith",
     "url": "/api/spells/shield-of-faith",
-    "characterclass": "Cleric, Paladin"
+    "characterclass": "Cleric, Paladin",
+    "desc": "Test."
+
   },
   {
     "index": "shillelagh",
     "name": "Shillelagh",
     "url": "/api/spells/shillelagh",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "shocking-grasp",
     "name": "Shocking Grasp",
     "url": "/api/spells/shocking-grasp",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "silence",
     "name": "Silence",
     "url": "/api/spells/silence",
-    "characterclass": "Bard, Cleric, Ranger"
+    "characterclass": "Bard, Cleric, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "silent-image",
     "name": "Silent Image",
     "url": "/api/spells/silent-image",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "simulacrum",
     "name": "Simulacrum",
     "url": "/api/spells/simulacrum",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sleep",
     "name": "Sleep",
     "url": "/api/spells/sleep",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sleet-storm",
     "name": "Sleet Storm",
     "url": "/api/spells/sleet-storm",
-    "characterclass": "Druid, Sorcerer, Wizard\n"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "slow",
     "name": "Slow",
     "url": "/api/spells/slow",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "spare-the-dying",
     "name": "Spare the Dying",
     "url": "/api/spells/spare-the-dying",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "speak-with-animals",
     "name": "Speak with Animals",
     "url": "/api/spells/speak-with-animals",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "speak-with-dead",
     "name": "Speak with Dead",
     "url": "/api/spells/speak-with-dead",
-    "characterclass": "Bard, Cleric"
+    "characterclass": "Bard, Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "speak-with-plants",
     "name": "Speak with Plants",
     "url": "/api/spells/speak-with-plants",
-    "characterclass": "Bard, Druid, Ranger"
+    "characterclass": "Bard, Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "spider-climb",
     "name": "Spider Climb",
     "url": "/api/spells/spider-climb",
-    "characterclass": "Sorcerer, Warlock, Wizard"
+    "characterclass": "Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "spike-growth",
     "name": "Spike Growth",
     "url": "/api/spells/spike-growth",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "spirit-guardians",
     "name": "Spirit Guardians",
     "url": "/api/spells/spirit-guardians",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "spiritual-weapon",
     "name": "Spiritual Weapon",
     "url": "/api/spells/spiritual-weapon",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "stinking-cloud",
     "name": "Stinking Cloud",
     "url": "/api/spells/stinking-cloud",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "stone-shape",
     "name": "Stone Shape",
     "url": "/api/spells/stone-shape",
-    "characterclass": "Cleric, Druid, Wizard"
+    "characterclass": "Cleric, Druid, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "stoneskin",
     "name": "Stoneskin",
     "url": "/api/spells/stoneskin",
-    "characterclass": "Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "storm-of-vengeance",
     "name": "Storm of Vengeance",
     "url": "/api/spells/storm-of-vengeance",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "suggestion",
     "name": "Suggestion",
     "url": "/api/spells/suggestion",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sunbeam",
     "name": "Sunbeam",
     "url": "/api/spells/sunbeam",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "sunburst",
     "name": "Sunburst",
     "url": "/api/spells/sunburst",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "symbol",
     "name": "Symbol",
     "url": "/api/spells/symbol",
-    "characterclass": "Bard, Cleric, Wizard"
+    "characterclass": "Bard, Cleric, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "telekinesis",
     "name": "Telekinesis",
     "url": "/api/spells/telekinesis",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "telepathic-bond",
     "name": "Telepathic Bond",
     "url": "/api/spells/telepathic-bond",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "teleport",
     "name": "Teleport",
     "url": "/api/spells/teleport",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "teleportation-circle",
     "name": "Teleportation Circle",
     "url": "/api/spells/teleportation-circle",
-    "characterclass": "Bard, Sorcerer, Wizard"
+    "characterclass": "Bard, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "thaumaturgy",
     "name": "Thaumaturgy",
     "url": "/api/spells/thaumaturgy",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "thunderwave",
     "name": "Thunderwave",
     "url": "/api/spells/thunderwave",
-    "characterclass": "Bard, Druid, Sorcerer, Wizard"
+    "characterclass": "Bard, Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "time-stop",
     "name": "Time Stop",
     "url": "/api/spells/time-stop",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "tiny-hut",
     "name": "Tiny Hut",
     "url": "/api/spells/tiny-hut",
-    "characterclass": "Bard, Wizard"
+    "characterclass": "Bard, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "tongues",
     "name": "Tongues",
     "url": "/api/spells/tongues",
-    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "transport-via-plants",
     "name": "Transport via Plants",
     "url": "/api/spells/transport-via-plants",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "tree-stride",
     "name": "Tree Stride",
     "url": "/api/spells/tree-stride",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "true-polymorph",
     "name": "True Polymorph",
     "url": "/api/spells/true-polymorph",
-    "characterclass": "Bard, Warlock, Wizard"
+    "characterclass": "Bard, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "true-resurrection",
     "name": "True Resurrection",
     "url": "/api/spells/true-resurrection",
-    "characterclass": "Cleric, Druid"
+    "characterclass": "Cleric, Druid",
+    "desc": "Test."
+
   },
   {
     "index": "true-seeing",
     "name": "True Seeing",
     "url": "/api/spells/true-seeing",
-    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "true-strike",
     "name": "True Strike",
     "url": "/api/spells/true-strike",
-    "characterclass": "Bard, Sorcerer, Warlock, Wizard"
+    "characterclass": "Bard, Sorcerer, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "unseen-servant",
     "name": "Unseen Servant",
     "url": "/api/spells/unseen-servant",
-    "characterclass": "Bard, Warlock, Wizard"
+    "characterclass": "Bard, Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "vampiric-touch",
     "name": "Vampiric Touch",
     "url": "/api/spells/vampiric-touch",
-    "characterclass": "Warlock, Wizard"
+    "characterclass": "Warlock, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "vicious-mockery",
     "name": "Vicious Mockery",
     "url": "/api/spells/vicious-mockery",
-    "characterclass": "Bard"
+    "characterclass": "Bard",
+    "desc": "Test."
+
   },
   {
     "index": "wall-of-fire",
     "name": "Wall of Fire",
     "url": "/api/spells/wall-of-fire",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "wall-of-force",
     "name": "Wall of Force",
     "url": "/api/spells/wall-of-force",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "wall-of-ice",
     "name": "Wall of Ice",
     "url": "/api/spells/wall-of-ice",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "wall-of-stone",
     "name": "Wall of Stone",
     "url": "/api/spells/wall-of-stone",
-    "characterclass": "Druid, Sorcerer, Wizard"
+    "characterclass": "Druid, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "wall-of-thorns",
     "name": "Wall of Thorns",
     "url": "/api/spells/wall-of-thorns",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "warding-bond",
     "name": "Warding Bond",
     "url": "/api/spells/warding-bond",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
   },
   {
     "index": "water-breathing",
     "name": "Water Breathing",
     "url": "/api/spells/water-breathing",
-    "characterclass": "Druid, Ranger, Sorcerer, Wizard"
+    "characterclass": "Druid, Ranger, Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "water-walk",
     "name": "Water Walk",
     "url": "/api/spells/water-walk",
-    "characterclass": "Cleric, Druid, Ranger, Sorcerer"
+    "characterclass": "Cleric, Druid, Ranger, Sorcerer",
+    "desc": "Test."
+
   },
   {
     "index": "web",
     "name": "Web",
     "url": "/api/spells/web",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "weird",
     "name": "Weird",
     "url": "/api/spells/weird",
-    "characterclass": "Wizard"
+    "characterclass": "Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "wind-walk",
     "name": "Wind Walk",
     "url": "/api/spells/wind-walk",
-    "characterclass": "Druid"
+    "characterclass": "Druid",
+    "desc": "Test."
+
   },
   {
     "index": "wind-wall",
     "name": "Wind Wall",
     "url": "/api/spells/wind-wall",
-    "characterclass": "Druid, Ranger"
+    "characterclass": "Druid, Ranger",
+    "desc": "Test."
+
   },
   {
     "index": "wish",
     "name": "Wish",
     "url": "/api/spells/wish",
-    "characterclass": "Sorcerer, Wizard"
+    "characterclass": "Sorcerer, Wizard",
+    "desc": "Test."
+
   },
   {
     "index": "word-of-recall",
     "name": "Word of Recall",
     "url": "/api/spells/word-of-recall",
-    "characterclass": "Cleric"
+    "characterclass": "Cleric",
+    "desc": "Test."
+
+
   },
   {
     "index": "zone-of-truth",
     "name": "Zone of Truth",
     "url": "/api/spells/zone-of-truth",
-    "characterclass": "Bard, Cleric, Paladin"
+    "characterclass": "Bard, Cleric, Paladin",
+    "desc": "Test."
+
   }
 ]
