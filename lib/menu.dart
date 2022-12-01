@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'sheet.dart';
 import 'spells.dart';
+import 'main.dart';
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
@@ -40,7 +41,16 @@ class MainMenu extends StatelessWidget {
                     },
                     child: const Text('Spells'),
                   ),
-                )
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0,right: 8.0),
+                  child: ElevatedButton(
+                    onPressed:(){
+                      Navigator.pushNamed(context, '/');
+                    },
+                    child: const Text('Login Menu'),
+                  ),
+                ),
               ],
             )
         ),
