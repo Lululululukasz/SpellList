@@ -1,10 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'sheet.dart';
 import 'spells.dart';
-import 'main.dart';
+import 'package:mob_project/main.dart';
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
+  logout() => FirebaseAuth.instance.signOut();
 
   @override
   Widget build(BuildContext context) {
@@ -44,9 +46,10 @@ class MainMenu extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 8.0,right: 8.0),
                   child: ElevatedButton(
                     onPressed:(){
+                      logout();
                       Navigator.pushNamed(context, '/');
                     },
-                    child: const Text('Login Menu'),
+                    child: const Text('LogOut'),
                   ),
                 ),
               ],
@@ -60,5 +63,5 @@ class MainMenu extends StatelessWidget {
   }
 }
 
-
+//lib
 
