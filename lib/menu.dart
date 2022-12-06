@@ -13,9 +13,7 @@ class MainMenu extends StatelessWidget {
           title: const Text('Main Menu'),
         ),
         drawer: Drawer (
-
             child:  ListView (
-
               children: [
 
                 Container(

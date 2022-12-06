@@ -6,10 +6,7 @@ import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
 //TODO
-void main()
-
-
-async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(
