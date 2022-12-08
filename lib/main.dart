@@ -7,6 +7,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 //TODO
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -85,7 +86,9 @@ class MyLoginState extends State<MyLogin> {
                     onPressed: user != null ? () => logout() : null,
                     child: const Text('Sign out', style: TextStyle(color: Colors.red)))
               ],
-            )));
+            )
+        )
+    );
   }
 
   Widget userInfo() {
@@ -96,13 +99,13 @@ class MyLoginState extends State<MyLogin> {
       return Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         if (user.photoURL != null) Image.network(user.photoURL!, width: 50),
         Text(
-            'Signed in as ${user.displayName != null ? '${user.displayName!}, ' : ''}${user.email}.')
+            'Signed in as ${user.displayName != null ? user.displayName! : ''}${user.email}.')
       ]);
     }
   }
 
-  void login(String email, String passwort, BuildContext context) async {
-    if (await loginWithEmail(email, passwort) != null) {
+  void login(String email, String password, BuildContext context) async {
+    if (await loginWithEmail(email, password) != null) {
       Navigator.pushNamed(context, '/menu');
     }
   }
@@ -123,3 +126,4 @@ class MyLoginState extends State<MyLogin> {
 
   logout() => FirebaseAuth.instance.signOut();
 }
+
