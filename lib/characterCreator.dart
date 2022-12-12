@@ -13,7 +13,7 @@ class _State extends State<CharacterCreator> {
   final List<String> characterNumber = <String>[];
 
   late TextEditingController controller;
-  String yourCharacterName = "";
+  String name = "";
 
   @override
   void initState() {
@@ -29,7 +29,7 @@ class _State extends State<CharacterCreator> {
 
   void addItemToList() {
     setState(() {
-      characterNumber.insert(0, yourCharacterName);
+      characterNumber.insert(0, name);
     });
   }
 
@@ -43,7 +43,7 @@ class _State extends State<CharacterCreator> {
             onPressed: () async {
               final name = await nameYourCharacter();
 
-              setState(() => this.yourCharacterName = name!); //TODO useless dont touch
+              setState(() => this.name = name!);
               addItemToList();
 
               print(characterNumber.length); //TODO Test
