@@ -5,7 +5,7 @@ import 'character_var.dart';
 class Sheet extends StatelessWidget {
   const Sheet({super.key});
 
-//TODO Update
+//TODO FIX THIS UGLY SHIT OF CODE
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +36,7 @@ class Sheet extends StatelessWidget {
   }
 }
 
-// move this to another class
+//TODO move this to it own class => Style file or remove it but don't know. Cause drop down
 class ClassButton extends StatefulWidget {
   const ClassButton({Key? key, required this.classChosen}) : super(key: key);
   final String classChosen;

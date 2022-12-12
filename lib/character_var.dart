@@ -14,4 +14,15 @@ String warlock = "Warlock";
 String wizard = "Wizard";
 String whichClass = "";
 
+  String whereToGo = "";
+
+  String characterCreatorName = "CharacterCreator";
+  String spellsName = "Spells";
+  String sheetName = "Sheet";
+
+  String characterCreator = "/characterCreator";
+  String spells = "/spells";
+  String sheet = "/sheet";
+
+
 //fuck the other classes player handbook rules.

@@ -28,8 +28,7 @@ import 'package:http/http.dart' as http;
 }
 
 Future<List<SpellList>> getSpells() async {
-  /* var differentcall = "spells"; and $differentcall after api link where "spells" is
- TODO as a example will change */
+
   final response = await http.get(
     Uri.parse('https://gultendier.github.io/apidata/spells'),
   );
