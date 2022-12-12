@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-
+//TODO THIS IS BUGGY AS HELL
 
 class CharacterCreator extends StatefulWidget {
   const CharacterCreator({super.key});
@@ -13,7 +13,7 @@ class _State extends State<CharacterCreator> {
   final List<String> characterNumber = <String>[];
 
   late TextEditingController controller;
-  String name = "";
+  String yourCharacterName = "";
 
   @override
   void initState() {
@@ -26,8 +26,6 @@ class _State extends State<CharacterCreator> {
     controller.dispose();
     super.dispose();
   }
-
-  var yourCharacterName = "";
 
   void addItemToList() {
     setState(() {
@@ -44,7 +42,8 @@ class _State extends State<CharacterCreator> {
         floatingActionButton: FloatingActionButton(
             onPressed: () async {
               final name = await nameYourCharacter();
-              setState(() => this.name = name!);
+
+              setState(() => this.yourCharacterName = name!); //TODO useless dont touch
               addItemToList();
 
               print(characterNumber.length); //TODO Test
@@ -67,8 +66,8 @@ class _State extends State<CharacterCreator> {
                         color: Colors.red,
                         child: Center(
                             child: Text(
-                          name,
-                          style: const TextStyle(fontSize: 18),
+                                '${characterNumber[index]} ',
+                              style: const TextStyle(fontSize: 18),
                         )),
                       ),
                     );
@@ -86,7 +85,10 @@ class _State extends State<CharacterCreator> {
                 const InputDecoration(hintText: "Enter your Characters Name"),
             controller: controller,
           ),
-          actions: [TextButton(onPressed: submit, child: const Text("Create"))],
+          actions: [
+            TextButton(
+                onPressed: submit,
+                child: const Text("Create"))],
         ),
       );
 
