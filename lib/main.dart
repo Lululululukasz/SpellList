@@ -5,6 +5,7 @@ import 'spells.dart';
 import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:mob_project/characterCreator.dart';
 
 //TODO
 
@@ -23,6 +24,7 @@ void main() async {
         '/sheet': (context) => const Sheet(),
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
+        '/characterCreator': (context) => const CharacterCreator(),
       },
       home: Scaffold(
           appBar: AppBar(title: const Text("D&D")),
