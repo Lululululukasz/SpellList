@@ -1,3 +1,5 @@
+//TODO fix this ugly piece of code
+
 String barbarian = "Barbarian";
 String bard = "Bard";
 String cleric = "Cleric";
