@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mob_project/char_sheet.dart';
 
-//TODO THIS IS BUGGY AS HELL
+//TODO THIS IS BUGGY AS HELL DON'T TOUCH TOO HARD
 
 class CharacterCreator extends StatefulWidget {
   const CharacterCreator({super.key});
@@ -10,7 +11,7 @@ class CharacterCreator extends StatefulWidget {
 }
 
 class _State extends State<CharacterCreator> {
-  final List<String> characterNumber = <String>[];
+  final List<String> characterNames = <String>[];
 
   late TextEditingController controller;
   String name = "";
@@ -29,7 +30,7 @@ class _State extends State<CharacterCreator> {
 
   void addItemToList() {
     setState(() {
-      characterNumber.insert(0, name);
+      characterNames.insert(0, name); //insert instantz der klasse insert new
     });
   }
 
@@ -46,7 +47,7 @@ class _State extends State<CharacterCreator> {
               setState(() => this.name = name!);
               addItemToList();
 
-              print(characterNumber.length); //TODO Test
+              print(characterNames.length); //TODO Test
             },
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)),
@@ -54,11 +55,15 @@ class _State extends State<CharacterCreator> {
           Expanded(
               child: ListView.builder(
                   padding: const EdgeInsets.all(8),
-                  itemCount: characterNumber.length,
+                  itemCount: characterNames.length,
                   itemBuilder: (BuildContext context, int index) {
                     return InkWell(
                       onTap: () {
-                        print("ButtonInk works"); //TODO Test
+                        print('${characterNames[index]} ',); //TODO Test
+
+                        Charakter_stats clickCharacter = Charakter_stats(characterName: characterNames[index]);
+                        Map<String, dynamic> data = clickCharacter.toFirestore();
+                        db.collection("Charakter").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
                       },
                       child: Container(
                         height: 50,
@@ -66,7 +71,7 @@ class _State extends State<CharacterCreator> {
                         color: Colors.red,
                         child: Center(
                             child: Text(
-                                '${characterNumber[index]} ',
+                                '${characterNames[index]} ',
                               style: const TextStyle(fontSize: 18),
                         )),
                       ),
