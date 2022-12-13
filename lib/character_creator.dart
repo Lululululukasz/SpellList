@@ -61,9 +61,9 @@ class _State extends State<CharacterCreator> {
                       onTap: () {
                         print('${characterNames[index]} ',); //TODO Test
 
-                        Charakter_stats clickCharacter = Charakter_stats(characterName: characterNames[index]);
+                        Character_stats clickCharacter = Character_stats(characterName: characterNames[index]);
                         Map<String, dynamic> data = clickCharacter.toFirestore();
-                        db.collection("Charakter").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
+                        db.collection("Character").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
                       },
                       child: Container(
                         height: 50,

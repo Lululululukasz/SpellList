@@ -5,7 +5,7 @@ import 'spells.dart';
 import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:mob_project/characterCreator.dart';
+import 'package:mob_project/character_creator.dart';
 
 
 void main() async {
