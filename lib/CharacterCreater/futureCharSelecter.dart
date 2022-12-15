@@ -1,4 +1,4 @@
-import 'Firebase/collectionForCharacter.dart';
+import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
 import 'characteCreater.dart';
 
