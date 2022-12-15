@@ -56,7 +56,10 @@ class _State extends State<CharacterCreator> {
         body:
         Column(children: <Widget>[
           Expanded(
+
+
               child: ListView.builder(
+
                   padding: const EdgeInsets.all(8),
                   itemCount: characterNames.length,
                   itemBuilder: (BuildContext context, int index) {

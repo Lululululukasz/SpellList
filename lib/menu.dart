@@ -6,8 +6,8 @@ import 'package:mob_project/characterVar.dart';
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
-
   logout() => FirebaseAuth.instance.signOut();
+
 
   @override
   Widget build(BuildContext context) {
@@ -26,17 +26,16 @@ class MainMenu extends StatelessWidget {
             navigationName: characterCreatorName,
           ),
           DrawerButton(
-            navigationRoute: sheet,
-            navigationName: sheetName,
-          ),
-          DrawerButton(
-            navigationRoute: spells,
-            navigationName: spellsName,
+            navigationRoute: spellListNavigation,
+            navigationName: spellListName,
           ),
           DrawerButton(
             navigationRoute: "/characterInformation",
             navigationName: "INFOS",
           ),
+          DrawerButton(
+              navigationRoute: "/",
+              navigationName: logoutName)
         ],
       )),
     );
@@ -60,14 +59,18 @@ class DrawerButton extends StatefulWidget {
 class _ClassButtonState extends State<DrawerButton> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 8.0, right: 8.0),
-      child: ElevatedButton(
-        onPressed: () {
-          Navigator.pushNamed(context, widget.navigationRoute);
-        },
-        child: Text(widget.navigationName),
-      ),
+
+   return ListTile(
+      onTap: () {
+        Navigator.pushNamed(context, widget.navigationRoute);
+        print("Test for CharacterInformation");
+        if(widget.navigationRoute == "/") {
+          FirebaseAuth.instance.signOut();
+        }
+      }, //TODO add also handbookClasses,
+
+      leading: Text(widget.navigationName),
+      shape: const Border(bottom: BorderSide(), top: BorderSide()),
     );
   }
 }

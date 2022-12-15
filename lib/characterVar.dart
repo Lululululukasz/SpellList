@@ -7,13 +7,15 @@ final List<String> handbookClasses = <String>["Barbarian","Bard","Cleric","Druid
 String whichClass = "";
 
 //for drawerNavigation
-  String whereToGo = "";
-  String characterCreatorName = "CharacterCreator";
-  String spellsName = "Spells";
-  String sheetName = "Sheet";
-  String characterCreator = "/characterCreator";
-  String spells = "/spells";
-  String sheet = "/sheet";
+ // String whereToGo = "";
 
+String characterCreator = "/characterCreator";
+String characterCreatorName = "CharacterCreator";
+String spellListNavigation = "/spells";
+String spellListName = "Spells";
+String logoutNavigation = "/";
+String logoutName = "Logout";
 
-//fuck the other classes player handbook rules.
+/*String sheetName = "Sheet";
+String sheet = "/sheet";*/
+
