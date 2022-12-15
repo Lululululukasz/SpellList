@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'menu.dart';
 import 'spellList.dart';
-// import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:mob_project/characterCreator.dart';
@@ -21,7 +20,6 @@ void main() async {
 // When navigating to the "/" route, build the FirstScreen widget
         '/login': (context) => MyLogin(),
 // When navigating to the "/second" route, build the SecondScreen widget.
-       // '/sheet': (context) => const Sheet(),
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
