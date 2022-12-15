@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:mob_project/character_var.dart';
+import 'package:mob_project/characterVar.dart';
 
 //TODO THIS CODE IS DUMB, IT SHOULDN'T EXIST, take this and sheet and characterCreator
 

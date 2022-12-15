@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../character_var.dart';
+import '../characterVar.dart';
 
 class CharacterInformationTile extends StatelessWidget {
   final String characterInfo;
@@ -12,9 +12,9 @@ class CharacterInformationTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       onTap: () {
-        whichClass = characterInfo;
+        whichClass = characterInfo; //TODO this should save whichClass = characterInfo for this specific class
         Navigator.pushNamed(context, '/spells');
-        print("test");
+        print("Test for CharacterInformation");
       }, //TODO add also handbookClasses,
 
       leading: Text(characterInfo),

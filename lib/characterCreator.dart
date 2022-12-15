@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/char_sheet.dart';
+import 'package:mob_project/Firebase/collectionForCharacter.dart';
 
 //TODO THIS IS BUGGY AS HELL DON'T TOUCH TOO HARD
 
@@ -53,7 +53,8 @@ class _State extends State<CharacterCreator> {
             },
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)),
-        body: Column(children: <Widget>[
+        body:
+        Column(children: <Widget>[
           Expanded(
               child: ListView.builder(
                   padding: const EdgeInsets.all(8),
