@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mob_project/characte_creater.dart';
-import 'package:mob_project/future_char_selecter.dart';
 import 'menu.dart';
 import 'spells.dart';
-import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:mob_project/characterInformation.dart';
 
 
 
@@ -22,13 +21,16 @@ void main() async {
 // When navigating to the "/" route, build the FirstScreen widget
         '/login': (context) => MyLogin(),
 // When navigating to the "/second" route, build the SecondScreen widget.
-        '/sheet': (context) => const Sheet(),
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
+        '/characterInformation':(context) => const CharacterInformation()
       },
       home: Scaffold(
-          appBar: AppBar(title: const Text("D&D")),
+          appBar: AppBar(
+              title: const Text("D&D"),
+            automaticallyImplyLeading: false,
+          ),
           body: MyLogin())));
 }
 
