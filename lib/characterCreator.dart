@@ -46,9 +46,7 @@ class _State extends State<CharacterCreator> {
 
               setState(() => this.name = name!);
               addItemToList();
-
-              print(characterNames.length); //TODO Test
-
+              upload();
 
             },
             backgroundColor: Colors.white,
@@ -66,10 +64,6 @@ class _State extends State<CharacterCreator> {
                     return InkWell(
                       onTap: () {
                         print('${characterNames[index]} ',); //TODO Test
-
-                        Character_stats clickCharacter = Character_stats(characterName: characterNames[index]);
-                        Map<String, dynamic> data = clickCharacter.toFirestore();
-                        db.collection("Character").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
                       },
                       child: Container(
                         height: 50,
@@ -108,4 +102,10 @@ class _State extends State<CharacterCreator> {
   void submit() {
     Navigator.of(context).pop(controller.text);
   }
+  void upload() {
+    Character_stats clickCharacter = Character_stats(characterName: characterNames.first);
+    Map<String, dynamic> data = clickCharacter.toFirestore();
+    db.collection("Character").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
+  }
 }
+
