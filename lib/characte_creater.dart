@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/char_sheet.dart';
+import 'package:mob_project/future_char_selecter.dart';
 
 
 
@@ -53,26 +54,8 @@ class _State extends State<CharacterCreator> {
             child: const Icon(Icons.add)),
         body: Column(children: <Widget>[
           Expanded(
-              child: ListView.builder(
-                  padding: const EdgeInsets.all(8),
-                  itemCount: characterNames.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    return InkWell(
-                      onTap: () {
-                        print('${characterNames[index]} ',); //TODO Test
-                      },
-                      child: Container(
-                        height: 50,
-                        margin: const EdgeInsets.all(2),
-                        color: Colors.red,
-                        child: Center(
-                            child: Text(
-                              '${characterNames[index]} ',
-                              style: const TextStyle(fontSize: 18),
-                            )),
-                      ),
-                    );
-                  }))
+              child: FutureCharacterSelection(),
+          )
         ]));
   }
 
