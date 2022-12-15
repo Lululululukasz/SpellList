@@ -1,4 +1,4 @@
-import 'Firebase/collectionForCharacter.dart';
+import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
 import 'characteCreater.dart';
 
@@ -20,7 +20,7 @@ class FutureCharacterSelection extends StatelessWidget {
            CharacterTiles.add(
                ListTile(
                   leading: Text(element),
-                  shape: const Border(bottom: BorderSide(), top: BorderSide()),
+                  shape: const Border(bottom: BorderSide(color: Colors.red), top: BorderSide(color: Colors.red)),
            ));
          }
          );

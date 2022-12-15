@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mob_project/characteCreater.dart';
+import 'package:mob_project/CharacterCreater/characteCreater.dart';
+import 'package:mob_project/Register/register.dart';
 import 'menu.dart';
-import 'spells.dart';
+import 'spellList.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:mob_project/characterInformation.dart';
@@ -24,7 +25,8 @@ void main() async {
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
-        '/characterInformation':(context) => const CharacterInformation()
+        '/characterInformation':(context) => const CharacterInformation(),
+        '/registerPage':(context)=> const registerscreen()
       },
       home: Scaffold(
           appBar: AppBar(
@@ -70,6 +72,7 @@ class MyLoginState extends State<MyLogin> {
                   SignInButton(Buttons.Email,
                       onPressed: () =>
                           login(emailInput.text, passInput.text, context)),
+
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -89,7 +92,9 @@ class MyLoginState extends State<MyLogin> {
                 Center(child: userInfo()),
                 OutlinedButton(
                     onPressed: user != null ? () => logout() : null,
-                    child: const Text('Sign out', style: TextStyle(color: Colors.red)))
+                    child: const Text('Sign out', style: TextStyle(color: Colors.red))),
+                OutlinedButton(onPressed:(){ Navigator.pushNamed(context, '/registerPage');},
+                    child: const Text('Registrierung',style: TextStyle(color: Colors.green,)),)
               ],
             )
         )
@@ -128,6 +133,7 @@ class MyLoginState extends State<MyLogin> {
       return Future.value(null);
     }
   }
+
 
   logout() => FirebaseAuth.instance.signOut();
 }

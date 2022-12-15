@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/Firebase/collectionForCharacter.dart';
-import 'package:mob_project/futureCharSelecter.dart';
+import 'package:mob_project/CharacterCreater/futureCharSelecter.dart';
 
 
 
