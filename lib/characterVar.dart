@@ -7,7 +7,7 @@ final List<String> handbookClasses = <String>["Barbarian","Bard","Cleric","Druid
 String whichClass = "";
 
 //for drawerNavigation
- // String whereToGo = "";
+// String whereToGo = "";
 
 String characterCreator = "/characterCreator";
 String characterCreatorName = "CharacterCreator";
@@ -18,4 +18,3 @@ String logoutName = "Logout";
 
 /*String sheetName = "Sheet";
 String sheet = "/sheet";*/
-

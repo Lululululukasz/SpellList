@@ -1,26 +1,43 @@
-/* import 'package:flutter/material.dart';
+/*
+import 'package:flutter/material.dart';
 
 import 'characterVar.dart';
 
 class Sheet extends StatelessWidget {
   const Sheet({super.key});
 
-//TODO FIX THIS UGLY SHIT OF CODE
+
   @override
   Widget build(BuildContext context) {
-    List <ClassButton> buttons = [];
-    for (var element in handbookClasses) {buttons.add(ClassButton(classChosen: element));}
     return Scaffold(
         appBar: AppBar(
           title: const Text('Characters'),
         ),
         body: ListView(
-         children: buttons,
+          children: [
+            const SizedBox(
+              height: kToolbarHeight,
+               child: Text("Choose your Class:"), add a text but its ugly
+
+            ),
+            ClassButton(classChosen: barbarian),
+            ClassButton(classChosen: bard),
+            ClassButton(classChosen: cleric),
+            ClassButton(classChosen: druid),
+            ClassButton(classChosen: fighter),
+            ClassButton(classChosen: monk),
+            ClassButton(classChosen: paladin),
+            ClassButton(classChosen: ranger),
+            ClassButton(classChosen: rogue),
+            ClassButton(classChosen: sorcerer),
+            ClassButton(classChosen: warlock),
+            ClassButton(classChosen: wizard),
+          ],
         ));
   }
 }
 
-//TODO move this to it own class => Style file or remove it but don't know. Cause drop down
+move this to another class
 class ClassButton extends StatefulWidget {
   const ClassButton({Key? key, required this.classChosen}) : super(key: key);
   final String classChosen;
@@ -34,12 +51,14 @@ class _ClassButtonState extends State<ClassButton> {
   Widget build(BuildContext context) {
 
     return TextButton(
+      // Within the `FirstScreen` widget
       style: TextButton.styleFrom(
         foregroundColor: Colors.white,
         alignment: Alignment.centerLeft,
 
       ),
       onPressed: () {
+        // Navigate to the second screen using a named route.
         whichClass = widget.classChosen;
         Navigator.pushNamed(context, '/spells');
       },

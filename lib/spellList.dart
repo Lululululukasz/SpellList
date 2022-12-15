@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/Api/apiCall.dart';
 import 'dart:async';
-//following import is just used for a test will change later because it is ugly
+//following import is just used for a test will change later
 import 'package:mob_project/characterVar.dart';
 
 class Spells extends StatefulWidget {

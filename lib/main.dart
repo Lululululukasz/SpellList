@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:mob_project/characteCreater.dart';
+import 'package:mob_project/spellList.dart';
 import 'menu.dart';
-import 'spellList.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:mob_project/characterCreator.dart';
 import 'package:mob_project/characterInformation.dart';
+
 
 
 void main() async {
@@ -23,15 +24,13 @@ void main() async {
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
-        '/characterInformation': (context) => const CharacterInformation(),
-
+        '/characterInformation':(context) => const CharacterInformation()
       },
       home: Scaffold(
           appBar: AppBar(
-            title: const Text("D&D"),
-            automaticallyImplyLeading: false, //TODO DUMB
+              title: const Text("D&D"),
+            automaticallyImplyLeading: false,
           ),
-
           body: MyLogin())));
 }
 
@@ -71,7 +70,6 @@ class MyLoginState extends State<MyLogin> {
                   SignInButton(Buttons.Email,
                       onPressed: () =>
                           login(emailInput.text, passInput.text, context)),
-
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -79,22 +77,19 @@ class MyLoginState extends State<MyLogin> {
                             width: 150,
                             child: TextField(
                                 controller: emailInput,
-                                decoration: const InputDecoration(
-                                    hintText: 'Email'))),
+                                decoration: const InputDecoration(hintText: 'Email'))),
                         SizedBox(
                             width: 150,
                             child: TextField(
                                 controller: passInput,
                                 obscureText: true,
-                                decoration: const InputDecoration(
-                                    hintText: 'Password'))),
+                                decoration: const InputDecoration(hintText: 'Password'))),
                       ])
                 ]),
                 Center(child: userInfo()),
                 OutlinedButton(
                     onPressed: user != null ? () => logout() : null,
-                    child: const Text(
-                        'Sign out', style: TextStyle(color: Colors.red)))
+                    child: const Text('Sign out', style: TextStyle(color: Colors.red)))
               ],
             )
         )
@@ -109,9 +104,7 @@ class MyLoginState extends State<MyLogin> {
       return Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         if (user.photoURL != null) Image.network(user.photoURL!, width: 50),
         Text(
-            'Signed in as ${user.displayName != null
-                ? user.displayName!
-                : ''}${user.email}.')
+            'Signed in as ${user.displayName != null ? user.displayName! : ''}${user.email}.')
       ]);
     }
   }

@@ -1,13 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mob_project/characterVar.dart';
+import 'main.dart';
 
 //TODO THIS CODE IS DUMB, IT SHOULDN'T EXIST, take this and sheet and characterCreator
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
-  logout() => FirebaseAuth.instance.signOut();
 
+  logout() => FirebaseAuth.instance.signOut();
 
   @override
   Widget build(BuildContext context) {
@@ -17,27 +18,26 @@ class MainMenu extends StatelessWidget {
       ),
       drawer: Drawer(
           child: ListView(
-        children: [
-          Container(
-            height: kToolbarHeight,
-          ),
-          DrawerButton(
-            navigationRoute: characterCreator,
-            navigationName: characterCreatorName,
-          ),
-          DrawerButton(
-            navigationRoute: spellListNavigation,
-            navigationName: spellListName,
-          ),
-          DrawerButton(
-            navigationRoute: "/characterInformation",
-            navigationName: "INFOS",
-          ),
-          DrawerButton(
-              navigationRoute: "/",
-              navigationName: logoutName)
-        ],
-      )),
+            children: [
+              Container(
+                height: kToolbarHeight,
+              ),
+              DrawerButton(
+                navigationRoute: characterCreator,
+                navigationName: characterCreatorName,
+              ),
+              DrawerButton(
+                navigationRoute: spellListNavigation,
+                navigationName: spellListName,
+              ),
+              DrawerButton(
+                navigationRoute: "/characterInformation",
+                navigationName: "INFOS",
+              ),
+              DrawerButton(navigationRoute: "/",
+                  navigationName: logoutName)
+            ],
+          )),
     );
   }
 }
@@ -59,8 +59,7 @@ class DrawerButton extends StatefulWidget {
 class _ClassButtonState extends State<DrawerButton> {
   @override
   Widget build(BuildContext context) {
-
-   return ListTile(
+    return ListTile(
       onTap: () {
         Navigator.pushNamed(context, widget.navigationRoute);
         print("Test for CharacterInformation");
