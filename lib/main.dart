@@ -29,7 +29,11 @@ void main() async {
 
       },
       home: Scaffold(
-          appBar: AppBar(title: const Text("D&D")),
+          appBar: AppBar(
+            title: const Text("D&D"),
+            automaticallyImplyLeading: false, //TODO DUMB
+          ),
+
           body: MyLogin())));
 }
 
@@ -69,6 +73,7 @@ class MyLoginState extends State<MyLogin> {
                   SignInButton(Buttons.Email,
                       onPressed: () =>
                           login(emailInput.text, passInput.text, context)),
+
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -76,19 +81,22 @@ class MyLoginState extends State<MyLogin> {
                             width: 150,
                             child: TextField(
                                 controller: emailInput,
-                                decoration: const InputDecoration(hintText: 'Email'))),
+                                decoration: const InputDecoration(
+                                    hintText: 'Email'))),
                         SizedBox(
                             width: 150,
                             child: TextField(
                                 controller: passInput,
                                 obscureText: true,
-                                decoration: const InputDecoration(hintText: 'Password'))),
+                                decoration: const InputDecoration(
+                                    hintText: 'Password'))),
                       ])
                 ]),
                 Center(child: userInfo()),
                 OutlinedButton(
                     onPressed: user != null ? () => logout() : null,
-                    child: const Text('Sign out', style: TextStyle(color: Colors.red)))
+                    child: const Text(
+                        'Sign out', style: TextStyle(color: Colors.red)))
               ],
             )
         )
@@ -103,7 +111,9 @@ class MyLoginState extends State<MyLogin> {
       return Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         if (user.photoURL != null) Image.network(user.photoURL!, width: 50),
         Text(
-            'Signed in as ${user.displayName != null ? user.displayName! : ''}${user.email}.')
+            'Signed in as ${user.displayName != null
+                ? user.displayName!
+                : ''}${user.email}.')
       ]);
     }
   }
@@ -130,4 +140,3 @@ class MyLoginState extends State<MyLogin> {
 
   logout() => FirebaseAuth.instance.signOut();
 }
-

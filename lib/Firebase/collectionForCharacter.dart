@@ -4,14 +4,14 @@ final FirebaseFirestore db = FirebaseFirestore.instance;
 class Character_stats
 {
   final String? characterName;
-  final String? classes;
+  final String? characterClasses;
   final int? level;
 
 
 
   Character_stats({
     this.characterName,
-    this.classes,
+    this.characterClasses,
     this.level,
 
   });
@@ -24,7 +24,7 @@ class Character_stats
     final data = snapshot.data();
     return Character_stats(
       characterName: data?['name'],
-      classes: data?['classes'],
+      characterClasses: data?['classes'],
       level: data?['level'],
     );
   }
@@ -32,7 +32,7 @@ class Character_stats
   Map<String, dynamic> toFirestore() {
     return {
       if (characterName != null) "name": characterName,
-      if (classes != null) "classes": classes,
+      if (characterClasses != null) "classes": characterClasses,
       if (level != null) "level": level,
     };
   }

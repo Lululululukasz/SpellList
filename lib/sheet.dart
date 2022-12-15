@@ -34,14 +34,12 @@ class _ClassButtonState extends State<ClassButton> {
   Widget build(BuildContext context) {
 
     return TextButton(
-      // Within the `FirstScreen` widget
       style: TextButton.styleFrom(
         foregroundColor: Colors.white,
         alignment: Alignment.centerLeft,
 
       ),
       onPressed: () {
-        // Navigate to the second screen using a named route.
         whichClass = widget.classChosen;
         Navigator.pushNamed(context, '/spells');
       },
@@ -50,3 +48,4 @@ class _ClassButtonState extends State<ClassButton> {
 
   }
 }
+*/
