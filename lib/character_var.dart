@@ -1,3 +1,5 @@
+//TODO fix this ugly piece of code
+
 String barbarian = "Barbarian";
 String bard = "Bard";
 String cleric = "Cleric";
@@ -12,4 +14,11 @@ String warlock = "Warlock";
 String wizard = "Wizard";
 String whichClass = "";
 
-//fuck the other classes player handbook rules.
+//for drawerNavigation
+String whereToGo = "";
+String characterCreatorName = "CharacterCreator";
+String spellsName = "Spells";
+String sheetName = "Sheet";
+String characterCreator = "/characterCreator";
+String spells = "/spells";
+String sheet = "/sheet";

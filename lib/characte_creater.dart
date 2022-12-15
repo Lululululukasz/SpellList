@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/char_sheet.dart';
 
-//TODO THIS IS BUGGY AS HELL DON'T TOUCH TOO HARD
+
 
 class CharacterCreator extends StatefulWidget {
   const CharacterCreator({super.key});
@@ -11,14 +11,10 @@ class CharacterCreator extends StatefulWidget {
 }
 
 class _State extends State<CharacterCreator> {
-  final List<String> characterNames = <String>[];
-  final List<String> characterClass = <String>[];
-
+  final List<String> characterNames=[];
 
   late TextEditingController controller;
   String name = "";
-  String klasse ="";
-
 
   @override
   void initState() {
@@ -34,13 +30,13 @@ class _State extends State<CharacterCreator> {
 
   void addItemToList() {
     setState(() {
-      characterNames.insert(0, name);
-      characterClass.insert(0, klasse);//insert instantz der klasse insert new
+      characterNames.insert(0, name); //insert instantz der klasse insert new
     });
   }
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
         appBar: AppBar(
           title: const Text('Your Characters'),
@@ -48,11 +44,9 @@ class _State extends State<CharacterCreator> {
         floatingActionButton: FloatingActionButton(
             onPressed: () async {
               final name = await nameYourCharacter();
-
-
               setState(() => this.name = name!);
               addItemToList();
-
+              upload();
               print(characterNames.length); //TODO Test
             },
             backgroundColor: Colors.white,
@@ -66,9 +60,6 @@ class _State extends State<CharacterCreator> {
                     return InkWell(
                       onTap: () {
                         print('${characterNames[index]} ',); //TODO Test
-                        Character_stats clickCharacter = Character_stats(characterName: characterNames[index]);
-                        Map<String, dynamic> data = clickCharacter.toFirestore();
-                        db.collection("Character").add(data).then((documentSnapshot)=>print ("Added Data with ID: ${documentSnapshot.id}"));
                       },
                       child: Container(
                         height: 50,
@@ -88,7 +79,7 @@ class _State extends State<CharacterCreator> {
   Future<String?> nameYourCharacter() => showDialog<String?>(
     context: context,
     builder: (context) => AlertDialog(
-      title: const Text("Your Character"),
+      title: const Text("Your Character Name"),
       content: TextField(
         autofocus: true,
         decoration:
@@ -104,5 +95,14 @@ class _State extends State<CharacterCreator> {
 
   void submit() {
     Navigator.of(context).pop(controller.text);
+
+     }
+  void upload(){
+    Character_stats clickCharacter = Character_stats(
+        characterName: characterNames.first);
+    Map<String, dynamic> data = clickCharacter.toFirestore();
+    db.collection("Character").add(data).then((documentSnapshot) =>
+        print("Added Data with ID: ${documentSnapshot.id}"));
   }
+
 }

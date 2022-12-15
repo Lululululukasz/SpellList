@@ -1,41 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:mob_project/characte_creater.dart';
+import 'package:mob_project/future_char_selecter.dart';
 import 'menu.dart';
 import 'spells.dart';
 import 'sheet.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
-//TODO
-void main()
 
 
-async {
+
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(
-      MaterialApp(
-        debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-          brightness: Brightness.dark,
-
-        ),
+  runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        brightness: Brightness.dark,
+      ),
       routes: {
 // When navigating to the "/" route, build the FirstScreen widget
-       '/login': (context) => MyLogin(),
+        '/login': (context) => MyLogin(),
 // When navigating to the "/second" route, build the SecondScreen widget.
-      '/sheet': (context) =>  const Sheet(),
-      '/spells': (context) => const Spells(),
+        '/sheet': (context) => const Sheet(),
+        '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
+        '/characterCreator': (context) => const CharacterCreator(),
       },
       home: Scaffold(
-          appBar: AppBar(
-              title: Text("D&D")),
-         body: MyLogin()
-      )
-      )
-  );
+          appBar: AppBar(title: const Text("D&D")),
+          body: MyLogin())));
 }
 
+// Start the app with the "/" named route. In this case, the app starts
+// on the FirstScreen widget.
 
 class MyLogin extends StatefulWidget {
   @override
@@ -61,57 +59,64 @@ class MyLoginState extends State<MyLogin> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
         child: Container(
-            margin: EdgeInsets.all(20),
+            margin: const EdgeInsets.all(20),
             child: Wrap(
               alignment: WrapAlignment.center,
               runSpacing: 15,
               children: [
                 Column(children: [
-                  SignInButton(Buttons.Email, onPressed: () => login(emailInput.text, passInput.text, context)),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                    SizedBox(
-                        width: 150,
-                        child: TextField(controller: emailInput, decoration: InputDecoration(hintText: 'Email'))),
-                    SizedBox(
-                        width: 150,
-                        child: TextField(
-                            controller: passInput,
-                            obscureText: true,
-                            decoration: InputDecoration(hintText: 'Password'))),
-                  ])
+                  SignInButton(Buttons.Email,
+                      onPressed: () =>
+                          login(emailInput.text, passInput.text, context)),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        SizedBox(
+                            width: 150,
+                            child: TextField(
+                                controller: emailInput,
+                                decoration: const InputDecoration(hintText: 'Email'))),
+                        SizedBox(
+                            width: 150,
+                            child: TextField(
+                                controller: passInput,
+                                obscureText: true,
+                                decoration: const InputDecoration(hintText: 'Password'))),
+                      ])
                 ]),
-
                 Center(child: userInfo()),
                 OutlinedButton(
-                    child: Text('Sign out', style: TextStyle(color: Colors.red)),
-                    onPressed: user != null ? () => logout() : null)
+                    onPressed: user != null ? () => logout() : null,
+                    child: const Text('Sign out', style: TextStyle(color: Colors.red)))
               ],
-            )));
+            )
+        )
+    );
   }
 
-
-
   Widget userInfo() {
-    if (user == null)
-      return Text('Not signed in.');
-    else {
+    if (user == null) {
+      return const Text('Not signed in.');
+    } else {
       User user = this.user!;
-      return
-        Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+      return Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         if (user.photoURL != null) Image.network(user.photoURL!, width: 50),
-        Text('Signed in as ${user.displayName != null ? user.displayName! + ', ' : ''}${user.email}.')
+        Text(
+            'Signed in as ${user.displayName != null ? user.displayName! : ''}${user.email}.')
       ]);
     }
   }
-void login (String email,String passwort,BuildContext context) async{
-    if (await loginWithEmail(email, passwort) != null){
+
+  void login(String email, String password, BuildContext context) async {
+    if (await loginWithEmail(email, password) != null) {
       Navigator.pushNamed(context, '/menu');
+    }
   }
-}
 
   Future<UserCredential?> loginWithEmail(String email, String pass) async {
     try {
-      return await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: pass);
+      return await FirebaseAuth.instance
+          .signInWithEmailAndPassword(email: email, password: pass);
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         print('No user found for that email.');
@@ -122,7 +127,5 @@ void login (String email,String passwort,BuildContext context) async{
     }
   }
 
-
   logout() => FirebaseAuth.instance.signOut();
 }
-
