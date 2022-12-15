@@ -1,5 +1,8 @@
 //TODO fix this ugly piece of code
 
+final List<String> handbookClasses = <String>["Barbarian","Bard","Cleric","Druid",
+  "Fighter","Monk","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard"];
+
 String barbarian = "Barbarian";
 String bard = "Bard";
 String cleric = "Cleric";
@@ -12,6 +15,7 @@ String rogue = "Rogue";
 String sorcerer = "Sorcerer";
 String warlock = "Warlock";
 String wizard = "Wizard";
+
 String whichClass = "";
 
 //for drawerNavigation

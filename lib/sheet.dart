@@ -8,30 +8,14 @@ class Sheet extends StatelessWidget {
 //TODO FIX THIS UGLY SHIT OF CODE
   @override
   Widget build(BuildContext context) {
+    List <ClassButton> buttons = [];
+    for (var element in handbookClasses) {buttons.add(ClassButton(classChosen: element));}
     return Scaffold(
         appBar: AppBar(
           title: const Text('Characters'),
         ),
         body: ListView(
-          children: [
-            const SizedBox(
-              height: kToolbarHeight,
-              // child: Text("Choose your Class:"), add a text but its ugly
-
-            ),
-            ClassButton(classChosen: barbarian),
-            ClassButton(classChosen: bard),
-            ClassButton(classChosen: cleric),
-            ClassButton(classChosen: druid),
-            ClassButton(classChosen: fighter),
-            ClassButton(classChosen: monk),
-            ClassButton(classChosen: paladin),
-            ClassButton(classChosen: ranger),
-            ClassButton(classChosen: rogue),
-            ClassButton(classChosen: sorcerer),
-            ClassButton(classChosen: warlock),
-            ClassButton(classChosen: wizard),
-          ],
+         children: buttons,
         ));
   }
 }

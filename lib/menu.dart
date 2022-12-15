@@ -33,6 +33,10 @@ class MainMenu extends StatelessWidget {
             navigationRoute: spells,
             navigationName: spellsName,
           ),
+          DrawerButton(
+            navigationRoute: "/characterInformation",
+            navigationName: "INFOS",
+          ),
         ],
       )),
     );

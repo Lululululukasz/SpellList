@@ -48,6 +48,8 @@ class _State extends State<CharacterCreator> {
               addItemToList();
 
               print(characterNames.length); //TODO Test
+
+
             },
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)),
@@ -93,7 +95,9 @@ class _State extends State<CharacterCreator> {
           actions: [
             TextButton(
                 onPressed: submit,
-                child: const Text("Create"))],
+                child: const Text("Create")
+            )
+          ],
         ),
       );
 
