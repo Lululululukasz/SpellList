@@ -1,6 +1,6 @@
 import 'Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
-import 'characte_creater.dart';
+import 'characteCreater.dart';
 
 class FutureCharacterSelection extends StatelessWidget {
   const FutureCharacterSelection({Key? key}) : super(key: key);
@@ -17,8 +17,10 @@ class FutureCharacterSelection extends StatelessWidget {
           List<ListTile> CharacterTiles = [];
          List<String> chars = snapshot.data as List<String>;
          chars.forEach((element) {
-           CharacterTiles.add(ListTile(
-             leading: Text(element),
+           CharacterTiles.add(
+               ListTile(
+                  leading: Text(element),
+                  shape: const Border(bottom: BorderSide(), top: BorderSide()),
            ));
          }
          );
