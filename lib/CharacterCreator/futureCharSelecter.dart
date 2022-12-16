@@ -36,7 +36,7 @@ class FutureCharacterSelection extends StatelessWidget {
   Future getChar () async{
     List<String> characterName = [];
     final snapshot = await db.collection("Character").get();
-    snapshot.docs.forEach((element) {characterName.add(element.data().values.first);}
+    snapshot.docs.forEach((element) {characterName.add(element.data().values.last);}
     );
     return characterName;
   }
