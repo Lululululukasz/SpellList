@@ -2,8 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mob_project/globalVariables.dart';
 import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
-import 'characteCreator.dart';
-import 'package:mob_project/Firebase/collectionForCharacter.dart';
+
 
 class UserInformation extends StatefulWidget {
   @override
