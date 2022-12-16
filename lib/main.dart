@@ -26,7 +26,7 @@ void main() async {
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
         '/characterInformation':(context) => const CharacterInformation(),
-        '/registerPage':(context)=> const registerscreen()
+        '/registerPage':(context)=> const RegisterScreen()
       },
       home: Scaffold(
           appBar: AppBar(

@@ -1,7 +1,7 @@
 /*
 import 'package:flutter/material.dart';
 
-import 'characterVar.dart';
+import 'globalVariables.dart';
 
 class Sheet extends StatelessWidget {
   const Sheet({super.key});

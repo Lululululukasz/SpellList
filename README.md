@@ -2,15 +2,13 @@
 
 Our MOB Project DnD-App
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+This project is a application to support Dungeons and Dragons 5th Edition
 
-A few resources to get you started if this is your first Flutter project:
+You will have the possibility to create character sheets and look for spells for your specific class.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The reason why we don't use Android Version 9:
+https://www.cvedetails.com/vulnerability-list/vendor_id-1224/product_id-19997/version_id-602087/Google-Android-9.0.html
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+WIP.

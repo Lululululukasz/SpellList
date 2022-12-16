@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-//TODO when creating a new information for the SpellList create here new class
-class SpellList {
+//If a new variable is added in the Api updated code
+  class SpellList {
   String index;
   String name;
   String url;
@@ -28,8 +28,7 @@ class SpellList {
 }
 
 Future<List<SpellList>> getSpells() async {
-  /* var differentcall = "spells"; and $differentcall after api link where "spells" is
- TODO as a example will change */
+
   final response = await http.get(
     Uri.parse('https://gultendier.github.io/apidata/spells'),
   );
