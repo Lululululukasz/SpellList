@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mob_project/CharacterCreater/characteCreater.dart';
+import 'package:mob_project/CharacterCreator/characteCreater.dart';
 import 'package:mob_project/Register/register.dart';
 import 'menu.dart';
 import 'spellList.dart';
