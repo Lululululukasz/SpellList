@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/Functions/characterInformationFunction.dart';
+import 'package:mob_project/CharacterCreator/characterSubmit.dart';
 import 'package:mob_project/globalVariables.dart';
 
 class CharacterInformation extends StatelessWidget {

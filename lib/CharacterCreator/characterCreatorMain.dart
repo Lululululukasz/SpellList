@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:mob_project/CharacterCreator/futureCharSelector.dart';
+import 'package:mob_project/CharacterCreator/characterSelector.dart';
 import 'package:mob_project/globalVariables.dart';
 
 class MainMenu extends StatefulWidget {
@@ -59,7 +59,6 @@ class _State extends State<MainMenu> {
               final name = await nameYourCharacter();
               setState(() => this.name = name!);
               addItemToList();
-              print(characterNames.length);
             },
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)

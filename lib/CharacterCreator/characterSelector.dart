@@ -35,7 +35,7 @@ class FutureCharacterSelection extends State<UserInformation> {
               title: Text(data['name']),
               subtitle: Text(data['classes']),
               onTap: (){
-                whichClass =data['classes'];
+                whichClass = data['classes'];
                 Navigator.pushNamed(context, '/spells');
               },
             );

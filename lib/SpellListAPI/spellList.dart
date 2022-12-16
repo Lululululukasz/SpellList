@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/Api/apiCall.dart';
+import 'package:mob_project/SpellListAPI/apiCall.dart';
 import 'dart:async';
 //following import is just used for a test will change later
 import 'package:mob_project/globalVariables.dart';
@@ -31,8 +31,6 @@ class _SpellsState extends State<Spells> {
             future: spelldata,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                /* variable from character_var it filters for the class
-                 TODO make it that it filters classes from sheet */
                 var filteredSpell = snapshot.data!.where((element) => element.characterclass.contains(whichClass)).toList();
                 return ListView.builder(
                     itemCount: filteredSpell.length,
