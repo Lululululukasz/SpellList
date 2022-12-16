@@ -1,22 +1,23 @@
-//TODO fix this ugly piece of code
+//For Button iteration
+import 'package:firebase_auth/firebase_auth.dart';
 
 final List<String> handbookClasses = <String>["Barbarian","Bard","Cleric","Druid",
   "Fighter","Monk","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard"];
 
+//For creating a new Character
 final List<String> characterNames=[];
 final List<String> characterClass=[];
 
+//For filtering spellList
 String whichClass = "";
 
-//for drawerNavigation
-// String whereToGo = "";
 
-String characterCreator = "/characterCreator";
-String characterCreatorName = "CharacterCreator";
+//For navigation
 String spellListNavigation = "/spells";
 String spellListName = "Spells";
-String logoutNavigation = "/";
 String logoutName = "Logout";
 
-/*String sheetName = "Sheet";
-String sheet = "/sheet";*/
+//For login/logout
+User? user;
+
+

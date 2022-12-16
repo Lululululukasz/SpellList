@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:mob_project/Styles/characterInformationListTile.dart';
 import 'package:mob_project/globalVariables.dart';
-import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
 
 
 class UserInformation extends StatefulWidget {
+  const UserInformation({super.key});
+
   @override
   FutureCharacterSelection createState() => FutureCharacterSelection();
 }

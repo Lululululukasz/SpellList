@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/CharacterCreator/characteCreator.dart';
-
 import '../Firebase/collectionForCharacter.dart';
 import '../globalVariables.dart';
 
@@ -28,7 +26,7 @@ class CharacterInformationTile extends StatelessWidget {
 }
 
 void upload(){
-  Character_stats clickCharacter = Character_stats(
+  CharacterStats clickCharacter = CharacterStats(
     characterClasses: whichClass,
     characterName: characterNames.first,
   );

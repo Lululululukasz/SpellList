@@ -1,24 +1,26 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 final FirebaseFirestore db = FirebaseFirestore.instance;
-class Character_stats
+class CharacterStats
 {
   final String? characterName;
   final String? characterClasses;
 
 
-  Character_stats({
+
+  CharacterStats({
     this.characterName,
     this.characterClasses,
+
   });
 
 
-  factory Character_stats.fromFirestore(
+  factory CharacterStats.fromFirestore(
       DocumentSnapshot<Map<String, dynamic>> snapshot,
       SnapshotOptions? options,
       ) {
     final data = snapshot.data();
-    return Character_stats(
+    return CharacterStats(
       characterName: data?['name'],
       characterClasses: data?['classes'],
     );

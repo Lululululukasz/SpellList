@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../globalVariables.dart';
-
 class DrawerButtonTile extends StatelessWidget {
   final String navigation;
   final String navigationName;
