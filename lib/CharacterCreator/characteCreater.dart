@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/Firebase/collectionForCharacter.dart';
-import 'package:mob_project/CharacterCreater/futureCharSelecter.dart';
+import 'package:mob_project/CharacterCreator/futureCharSelecter.dart';
+import 'package:mob_project/Styles/characterInformationListTile.dart';
+
 
 
 
@@ -75,6 +77,7 @@ class _State extends State<CharacterCreator> {
             child: const Text("Create"))],
     ),
   );
+
 
   void submit() {
     Navigator.of(context).pop(controller.text);
