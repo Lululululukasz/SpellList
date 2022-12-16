@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/Firebase/collectionForCharacter.dart';
-import 'package:mob_project/CharacterCreator/futureCharSelecter.dart';
+import 'package:mob_project/CharacterCreator/futureCharSelector.dart';
 import 'package:mob_project/globalVariables.dart';
-
-
 
 class CharacterCreator extends StatefulWidget {
   const CharacterCreator({super.key});
@@ -13,7 +10,6 @@ class CharacterCreator extends StatefulWidget {
 }
 
 class _State extends State<CharacterCreator> {
-
   late TextEditingController controller;
   String name = "";
 
@@ -31,13 +27,12 @@ class _State extends State<CharacterCreator> {
 
   void addItemToList() {
     setState(() {
-      characterNames.insert(0, name); //insert instantz der klasse insert new
+      characterNames.insert(0, name);
     });
   }
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
         appBar: AppBar(
           title: const Text('Your Characters'),
@@ -50,7 +45,8 @@ class _State extends State<CharacterCreator> {
               print(characterNames.length); //TODO Test
             },
             backgroundColor: Colors.white,
-            child: const Icon(Icons.add)),
+            child: const Icon(Icons.add)
+        ),
         body: Column(children: <Widget>[
           Expanded(
             child: UserInformation(),
@@ -59,27 +55,26 @@ class _State extends State<CharacterCreator> {
   }
 
   Future<String?> nameYourCharacter() => showDialog<String?>(
-    context: context,
-    builder: (context) => AlertDialog(
-      title: const Text("Your Character Name"),
-      content: TextField(
-        autofocus: true,
-        decoration:
-        const InputDecoration(hintText: "Enter your Characters Name"),
-        controller: controller,
-      ),
-      actions: [
-        TextButton(
-            onPressed: submit,
-            child: const Text("Create"))],
-    ),
-  );
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text("Your Character Name"),
+          content: TextField(
+            autofocus: true,
+            decoration:
+                const InputDecoration(hintText: "Enter your Characters Name"),
+            controller: controller,
+          ),
+          actions: [
+            TextButton(
+                onPressed: submit,
+                child: const Text("Create")
+            )
+          ],
+        ),
+      );
 
   void submit() {
     Navigator.of(context).pop(controller.text);
     Navigator.pushNamed(context, "/characterInformation");
-
   }
-
-
 }

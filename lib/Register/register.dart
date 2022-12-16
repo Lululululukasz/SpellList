@@ -56,14 +56,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Text(
+                  const Text(
                       "Register",
                       style: TextStyle(fontSize: 35)
                   ),
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
                     SizedBox(
                         width: 150,
-                        child: TextField(controller: emailInput, decoration: InputDecoration(hintText: 'Email'))),
+                        child: TextField(
+                            controller: emailInput,
+                            decoration: const InputDecoration(hintText: 'Email'))),
                   ]),
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
                     SizedBox(
@@ -71,7 +73,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         child: TextField(
                             controller: passInput,
                             obscureText: true,
-                            decoration: InputDecoration(hintText: 'Password'))),
+                            decoration: const InputDecoration(hintText: 'Password'))),
                   ]),
                   SignInButton(
                       Buttons.Email,

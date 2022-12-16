@@ -30,10 +30,6 @@ class MainMenu extends StatelessWidget {
                 navigationRoute: spellListNavigation,
                 navigationName: spellListName,
               ),
-              DrawerButton(
-                navigationRoute: "/characterInformation",
-                navigationName: "INFOS",
-              ),
               DrawerButton(navigationRoute: "/",
                   navigationName: logoutName)
             ],
@@ -66,7 +62,7 @@ class _ClassButtonState extends State<DrawerButton> {
         if(widget.navigationRoute == "/") {
           FirebaseAuth.instance.signOut();
         }
-      }, //TODO add also handbookClasses,
+      },
 
       leading: Text(widget.navigationName),
       shape: const Border(bottom: BorderSide(), top: BorderSide()),

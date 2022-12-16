@@ -6,7 +6,7 @@ import 'menu.dart';
 import 'spellList.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:mob_project/characterInformation.dart';
+import 'package:mob_project/CharacterCreator/characterInformation.dart';
 
 
 
@@ -94,7 +94,7 @@ class MyLoginState extends State<MyLogin> {
                     onPressed: user != null ? () => logout() : null,
                     child: const Text('Sign out', style: TextStyle(color: Colors.red))),
                 OutlinedButton(onPressed:(){ Navigator.pushNamed(context, '/registerPage');},
-                    child: const Text('Regristration',style: TextStyle(color: Colors.green,)),)
+                    child: const Text('Registration',style: TextStyle(color: Colors.green,)),)
               ],
             )
         )

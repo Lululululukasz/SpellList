@@ -28,7 +28,7 @@ class CharacterInformationTile extends StatelessWidget {
 }
 
 void upload(){
-  Character_stats clickCharacter = Character_stats(
+  CharacterStats clickCharacter = CharacterStats(
     characterClasses: whichClass,
     characterName: characterNames.first,
   );

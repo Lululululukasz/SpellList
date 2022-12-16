@@ -17,7 +17,6 @@ class DrawerButtonTile extends StatelessWidget {
     return ListTile(
       onTap: () {
         Navigator.pushNamed(context, navigation);
-        print("Test for Drawer");
       },
       leading: Text(navigationName),
       shape: const Border(bottom: BorderSide(), top: BorderSide()),
