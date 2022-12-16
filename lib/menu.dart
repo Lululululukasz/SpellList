@@ -64,7 +64,7 @@ class _State extends State<MainMenu> {
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)
         ),
-        body: Column(children: <Widget>[
+        body: Column(children: const <Widget>[
           Expanded(
             child: UserInformation(),
           )

@@ -8,7 +8,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:mob_project/CharacterCreator/characterInformation.dart';
 
 
-//TODO MOVE THIS TO IT OWN FILE AND CREATE A CLEAN MAIN
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

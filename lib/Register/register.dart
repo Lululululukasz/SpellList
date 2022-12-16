@@ -5,7 +5,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 
 Future <void> register(String email, String pass) async {
   try {
-    print(email+" "+pass);
+    print("$email $pass");
     UserCredential userCredential = await FirebaseAuth.instance
         .createUserWithEmailAndPassword(
       email: email,
