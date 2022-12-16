@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:mob_project/Styles/characterInformationListTile.dart';
 import 'package:mob_project/globalVariables.dart';
 import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,7 @@ class FutureCharacterSelection extends State<UserInformation> {
         }
 
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Text("Loading");
+          return const Center(child: CircularProgressIndicator(),);
         }
 
         return ListView(
@@ -34,6 +35,10 @@ class FutureCharacterSelection extends State<UserInformation> {
             return ListTile(
               title: Text(data['name']),
               subtitle: Text(data['classes']),
+              onTap: (){
+                whichClass =data['classes'];
+                Navigator.pushNamed(context, '/spells');
+              },
             );
           })
               .toList()
