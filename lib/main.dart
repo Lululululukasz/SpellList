@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mob_project/CharacterCreator/characteCreator.dart';
 import 'package:mob_project/Register/register.dart';
 import 'menu.dart';
 import 'spellList.dart';
@@ -9,7 +8,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:mob_project/CharacterCreator/characterInformation.dart';
 
 
-
+//TODO MOVE THIS TO IT OWN FILE AND CREATE A CLEAN MAIN
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -20,11 +19,10 @@ void main() async {
       ),
       routes: {
 // When navigating to the "/" route, build the FirstScreen widget
-        '/login': (context) => MyLogin(),
+        '/login': (context) => const MyLogin(),
 // When navigating to the "/second" route, build the SecondScreen widget.
         '/spells': (context) => const Spells(),
         '/menu': (context) => const MainMenu(),
-        '/characterCreator': (context) => const CharacterCreator(),
         '/characterInformation':(context) => const CharacterInformation(),
         '/registerPage':(context)=> const RegisterScreen()
       },
@@ -33,13 +31,15 @@ void main() async {
               title: const Text("D&D"),
             automaticallyImplyLeading: false,
           ),
-          body: MyLogin())));
+          body: const MyLogin())));
 }
 
 // Start the app with the "/" named route. In this case, the app starts
 // on the FirstScreen widget.
 
 class MyLogin extends StatefulWidget {
+  const MyLogin({super.key});
+
   @override
   MyLoginState createState() => MyLoginState();
 }

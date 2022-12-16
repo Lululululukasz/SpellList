@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mob_project/CharacterCreator/characteCreator.dart';
-
 import '../Firebase/collectionForCharacter.dart';
 import '../globalVariables.dart';
 
