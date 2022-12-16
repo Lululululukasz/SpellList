@@ -12,19 +12,16 @@ class CharacterInformationTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       onTap: () {
-        whichClass = characterInfo; //TODO this should save whichClass = characterInfo for this specific class
+        whichClass = characterInfo;
         upload();
         Navigator.pushNamed(context, '/spells');
-        print("Test for CharacterInformation");
-      }, //TODO add also handbookClasses,
-
+      },
       leading: Text(characterInfo),
       trailing: const Icon(Icons.keyboard_arrow_right),
       shape: const Border(bottom: BorderSide(), top: BorderSide()),
     );
   }
 }
-
 void upload(){
   CharacterStats clickCharacter = CharacterStats(
     characterClasses: whichClass,

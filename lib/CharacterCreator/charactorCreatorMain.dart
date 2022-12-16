@@ -59,7 +59,7 @@ class _State extends State<MainMenu> {
               final name = await nameYourCharacter();
               setState(() => this.name = name!);
               addItemToList();
-              print(characterNames.length); //TODO Test
+              print(characterNames.length);
             },
             backgroundColor: Colors.white,
             child: const Icon(Icons.add)
@@ -115,7 +115,6 @@ class _ClassButtonState extends State<DrawerButton> {
     return ListTile(
       onTap: () {
         Navigator.pushNamed(context, widget.navigationRoute);
-        print("Test for CharacterInformation");
         if(widget.navigationRoute == "/") {
           FirebaseAuth.instance.signOut();
         }

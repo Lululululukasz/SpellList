@@ -22,7 +22,6 @@ class FutureCharacterSelection extends State<UserInformation> {
         if (snapshot.hasError) {
           return const Text('Something went wrong');
         }
-
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator(),);
         }

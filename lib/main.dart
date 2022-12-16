@@ -89,9 +89,6 @@ class MyLoginState extends State<MyLogin> {
                       ])
                 ]),
                 Center(child: userInfo()),
-                OutlinedButton(
-                    onPressed: user != null ? () => logout() : null,
-                    child: const Text('Sign out', style: TextStyle(color: Colors.red))),
                 OutlinedButton(onPressed:(){ Navigator.pushNamed(context, '/registerPage');},
                     child: const Text('Registration',style: TextStyle(color: Colors.green,)),)
               ],

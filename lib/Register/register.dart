@@ -15,14 +15,16 @@ Future <void> register(String email, String pass) async {
     print(FirebaseAuth.instance.currentUser);
   } on FirebaseAuthException catch (e) {
     if (e.code == 'weak-password') {
-      print('The password provided is too weak.');
+      Text("The password provided is too weak.");
     } else if (e.code == 'email-already-in-use') {
-      print('The account already exists for that email.');
+      Text("The account already exists for that email.");
     }
   } catch (e) {
     print(e);
   }
 }
+
+
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);
 

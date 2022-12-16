@@ -7,25 +7,11 @@ class CharacterStats
   final String? characterClasses;
 
 
-
   CharacterStats({
     this.characterName,
     this.characterClasses,
 
   });
-
-
-  factory CharacterStats.fromFirestore(
-      DocumentSnapshot<Map<String, dynamic>> snapshot,
-      SnapshotOptions? options,
-      ) {
-    final data = snapshot.data();
-    return CharacterStats(
-      characterName: data?['name'],
-      characterClasses: data?['classes'],
-    );
-  }
-
   Map<String, dynamic> toFirestore() {
     return {
       if (characterName != null) "name": characterName,
