@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mob_project/CharacterCreator/characteCreator.dart';
 
-import '../characterVar.dart';
+import '../Firebase/collectionForCharacter.dart';
+import '../globalVariables.dart';
 
 class CharacterInformationTile extends StatelessWidget {
   final String characterInfo;
@@ -13,6 +15,7 @@ class CharacterInformationTile extends StatelessWidget {
     return ListTile(
       onTap: () {
         whichClass = characterInfo; //TODO this should save whichClass = characterInfo for this specific class
+        upload();
         Navigator.pushNamed(context, '/spells');
         print("Test for CharacterInformation");
       }, //TODO add also handbookClasses,
@@ -22,4 +25,14 @@ class CharacterInformationTile extends StatelessWidget {
       shape: const Border(bottom: BorderSide(), top: BorderSide()),
     );
   }
+}
+
+void upload(){
+  Character_stats clickCharacter = Character_stats(
+      characterClasses: whichClass,
+      characterName: characterNames.first,
+  );
+  Map<String, dynamic> data = clickCharacter.toFirestore();
+  db.collection("Character").add(data).then((documentSnapshot) =>
+      print("Added Data with ID: ${documentSnapshot.id}"));
 }
