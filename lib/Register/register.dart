@@ -1,8 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mob_project/main.dart';
 
 Future <void> register(String email, String pass) async {
   try {
@@ -49,9 +47,11 @@ class _registerscreenState extends State<registerscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Register'),
+      ),
         body: Container(
           width: double.infinity,
-          child: Card(
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -59,8 +59,6 @@ class _registerscreenState extends State<registerscreen> {
                       " Register ",
                       style: TextStyle(fontSize: 35)
                   ),
-                  // SignInButton(
-                  //Buttons.Google, onPressed: (){
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
                     SizedBox(
                         width: 150,
@@ -85,19 +83,9 @@ class _registerscreenState extends State<registerscreen> {
                         });
                       }
                   ),
-                  TextButton(
-                    style: TextButton.styleFrom(
-                      textStyle: const TextStyle(fontSize: 20),
-                    ),
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/login');
-                    },
-                    child: const Text('Login'),
-                  ),
                 ]),
           ),
-        )
-    );
+        );
   }
 
 }
