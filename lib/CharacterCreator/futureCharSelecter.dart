@@ -1,43 +1,50 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:mob_project/Styles/characterInformationListTile.dart';
+import 'package:mob_project/globalVariables.dart';
 import '../Firebase/collectionForCharacter.dart';
 import 'package:flutter/material.dart';
 
-class FutureCharacterSelection extends StatelessWidget {
-  const FutureCharacterSelection({Key? key}) : super(key: key);
+
+class UserInformation extends StatefulWidget {
+  @override
+  FutureCharacterSelection createState() => FutureCharacterSelection();
+}
+
+class FutureCharacterSelection extends State<UserInformation> {
+  final Stream<QuerySnapshot> _usersStream =
+  FirebaseFirestore.instance.collection('Character').snapshots();
 
   @override
   Widget build(BuildContext context) {
-    getChar();
-    return FutureBuilder(
-      future: getChar(),
-      builder: (context,snapshot){
-        if (snapshot.hasError){
-          return Text (snapshot.error.toString());
-        } else if(snapshot.hasData){
-          List<ListTile> CharacterTiles = [];
-         List<String> chars = snapshot.data as List<String>;
-         chars.forEach((element) {
-           CharacterTiles.add(
-               ListTile(
-                  leading: Text(element),
-                  shape: const Border(bottom: BorderSide(), top: BorderSide()),
-           ));
-         }
-         );
-          return ListView(
-            children: CharacterTiles,
-          );
+    return StreamBuilder<QuerySnapshot>(
+      stream: _usersStream,
+      builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+        if (snapshot.hasError) {
+          return const Text('Something went wrong');
+        }
 
-        } else {
+        if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator(),);
         }
+
+        return ListView(
+          children: snapshot.data!.docs
+              .map((DocumentSnapshot document) {
+            Map<String, dynamic> data =
+            document.data()! as Map<String, dynamic>;
+            return ListTile(
+              title: Text(data['name']),
+              subtitle: Text(data['classes']),
+              onTap: (){
+                whichClass =data['classes'];
+                Navigator.pushNamed(context, '/spells');
+              },
+            );
+          })
+              .toList()
+              .cast(),
+        );
       },
     );
-  }
-  Future getChar () async{
-    List<String> characterName = [];
-    final snapshot = await db.collection("Character").get();
-    snapshot.docs.forEach((element) {characterName.add(element.data().values.last);}
-    );
-    return characterName;
   }
 }

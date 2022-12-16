@@ -29,8 +29,8 @@ class CharacterInformationTile extends StatelessWidget {
 
 void upload(){
   Character_stats clickCharacter = Character_stats(
-      characterClasses: whichClass,
-      characterName: characterNames.first,
+    characterClasses: whichClass,
+    characterName: characterNames.first,
   );
   Map<String, dynamic> data = clickCharacter.toFirestore();
   db.collection("Character").add(data).then((documentSnapshot) =>

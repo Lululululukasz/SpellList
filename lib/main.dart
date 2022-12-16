@@ -94,7 +94,7 @@ class MyLoginState extends State<MyLogin> {
                     onPressed: user != null ? () => logout() : null,
                     child: const Text('Sign out', style: TextStyle(color: Colors.red))),
                 OutlinedButton(onPressed:(){ Navigator.pushNamed(context, '/registerPage');},
-                    child: const Text('Registrierung',style: TextStyle(color: Colors.green,)),)
+                    child: const Text('Regristration',style: TextStyle(color: Colors.green,)),)
               ],
             )
         )

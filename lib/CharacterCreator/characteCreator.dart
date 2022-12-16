@@ -53,7 +53,7 @@ class _State extends State<CharacterCreator> {
             child: const Icon(Icons.add)),
         body: Column(children: <Widget>[
           Expanded(
-              child: FutureCharacterSelection(),
+            child: UserInformation(),
           )
         ]));
   }

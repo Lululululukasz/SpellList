@@ -4,7 +4,7 @@ final List<String> handbookClasses = <String>["Barbarian","Bard","Cleric","Druid
   "Fighter","Monk","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard"];
 
 final List<String> characterNames=[];
-
+final List<String> characterClass=[];
 
 String whichClass = "";
 
