@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mob_project/CharacterCreater/characteCreater.dart';
+import 'package:mob_project/CharacterCreator/characteCreator.dart';
 import 'package:mob_project/Register/register.dart';
 import 'menu.dart';
 import 'spellList.dart';
@@ -26,7 +26,7 @@ void main() async {
         '/menu': (context) => const MainMenu(),
         '/characterCreator': (context) => const CharacterCreator(),
         '/characterInformation':(context) => const CharacterInformation(),
-        '/registerPage':(context)=> const registerscreen()
+        '/registerPage':(context)=> const RegisterScreen()
       },
       home: Scaffold(
           appBar: AppBar(

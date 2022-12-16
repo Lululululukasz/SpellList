@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mob_project/Styles/characterInformationListTile.dart';
-import 'package:mob_project/characterVar.dart';
+import 'package:mob_project/globalVariables.dart';
 
 class CharacterInformation extends StatelessWidget {
   const CharacterInformation({super.key});

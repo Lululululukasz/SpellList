@@ -3,6 +3,7 @@ import 'package:mob_project/Firebase/collectionForCharacter.dart';
 import 'package:mob_project/CharacterCreator/futureCharSelecter.dart';
 import 'package:mob_project/Styles/characterInformationListTile.dart';
 
+import 'package:mob_project/globalVariables.dart';
 
 
 
@@ -14,7 +15,6 @@ class CharacterCreator extends StatefulWidget {
 }
 
 class _State extends State<CharacterCreator> {
-  final List<String> characterNames=[];
 
   late TextEditingController controller;
   String name = "";
@@ -49,7 +49,6 @@ class _State extends State<CharacterCreator> {
               final name = await nameYourCharacter();
               setState(() => this.name = name!);
               addItemToList();
-              upload();
               print(characterNames.length); //TODO Test
             },
             backgroundColor: Colors.white,
@@ -81,14 +80,9 @@ class _State extends State<CharacterCreator> {
 
   void submit() {
     Navigator.of(context).pop(controller.text);
+    Navigator.pushNamed(context, "/characterInformation");
 
-     }
-  void upload(){
-    Character_stats clickCharacter = Character_stats(
-        characterName: characterNames.first);
-    Map<String, dynamic> data = clickCharacter.toFirestore();
-    db.collection("Character").add(data).then((documentSnapshot) =>
-        print("Added Data with ID: ${documentSnapshot.id}"));
   }
+
 
 }
