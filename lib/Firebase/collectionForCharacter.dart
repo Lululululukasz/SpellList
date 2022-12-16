@@ -5,14 +5,12 @@ class Character_stats
 {
   final String? characterName;
   final String? characterClasses;
-  final int? level;
 
 
 
   Character_stats({
     this.characterName,
     this.characterClasses,
-    this.level,
 
   });
 
@@ -25,7 +23,6 @@ class Character_stats
     return Character_stats(
       characterName: data?['name'],
       characterClasses: data?['classes'],
-      level: data?['level'],
     );
   }
 
@@ -33,7 +30,6 @@ class Character_stats
     return {
       if (characterName != null) "name": characterName,
       if (characterClasses != null) "classes": characterClasses,
-      if (level != null) "level": level,
     };
   }
 }
